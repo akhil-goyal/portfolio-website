@@ -35,13 +35,13 @@
 
 /* Scrollbar Thumb */
 ::-webkit-scrollbar-thumb {
-  background:  var(--color-primary);
+  background:  gray;
   border-radius: 10px;
 }
 
 /* On hovering at Scrollbar */
 ::-webkit-scrollbar-thumb:hover {
-  background:  var(--color-primary);
+  background:  gray;
 }
 /* ---------------------------------------------------------------- */
 
@@ -58,7 +58,7 @@
 body {
   font-family: var(--main-font);
   line-height: 1.6;
-  padding: 0 var(--pad-and-gap);
+  padding: 0;
 }
 
 h1,

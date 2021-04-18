@@ -1,0 +1,84 @@
+/* Navbar */
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+  }
+
+.navbar {
+    background-color: black;
+    position: relative;
+    color: #fff;
+    height: 7em;
+  }
+  
+  .navbar ul {
+    display: flex;
+  }
+  
+  .navbar a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+  }
+  
+  .navbar a:hover {
+    border-bottom: 1px #fff solid;
+  }
+  
+  .navbar .flex {
+    justify-content: space-between;
+  }
+
+  .site-logo {
+      height: 5em;
+      width: 5em;
+  }
+
+  .resume-btn {
+      height: 4em;
+      width: 7em;
+      background-color: transparent;
+      border: 1px solid #fff;
+      border-radius: 0.5em;
+  }
+
+  /* HERO */
+
+  .section-hero {
+      background-color: black;
+      height: 89vh;
+      padding: 10em 25em;
+  }
+
+  .hero {
+      color:#fff;
+      /* background-color: thistle; */
+  }
+
+  .hero code {
+      font-size: 1.5em;
+  }
+
+  .hero h1 {
+      font-size: 4em;
+      font-weight: bolder;
+  }
+
+  .hero h2 {
+    font-size: 4em;
+    font-weight: bolder;
+  }
+  .hero p {
+      width: 30em;
+  }
+
+  .contact-btn {
+    border: 1px solid white;
+    border-radius: 0.5em;
+    height: 3em;
+    width: 10em; 
+    color: white;   
+    margin-top: 3em;
+  }
