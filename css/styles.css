@@ -8,7 +8,6 @@
 
 .navbar {
     background-color: black;
-    position: relative;
     color: #fff;
     height: 7em;
   }
@@ -21,6 +20,7 @@
     color: #fff;
     padding: 10px;
     margin: 0 5px;
+    font-size: 1em;
   }
   
   .navbar a:hover {
@@ -82,3 +82,542 @@
     color: white;   
     margin-top: 3em;
   }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+    /* Navbar */
+    .container {
+        max-width: 780px;
+    }
+
+    .web-header {
+        display: none;
+    }
+
+    .mobile-header {
+        display: block;
+    }
+
+    .menu-bar {
+        font-size: 2em;
+    }
+
+    .navbar a {
+        color: #fff;
+        padding: 10px;
+        margin: 0 5px;
+        font-size: 0.7em;
+        }
+
+    .section-hero {
+        height: 85vh;
+        padding: 20em 8em;
+    }
+
+    .hero code {
+        font-size: 1.5em;
+    }
+
+    .hero h1 {
+        font-size: 3em;
+    }
+
+    .hero h2 {
+    font-size: 3em;
+    }
+    
+    .hero p {
+        font-size: 1em;
+        width: 20em;
+    }
+
+    .contact-btn {
+    height: 3em;
+    width: 8em; 
+    margin-top: 2em;
+    font-size: 1em;
+    }
+
+}
+
+/* Extra Small devices (Below 600px) */
+@media only screen and (max-width: 600px) {
+    /* Navbar */
+    .container {
+        max-width: auto;
+    }
+
+    .web-header {
+        display: none;
+    }
+
+    .mobile-header {
+        display: block;
+    }
+
+    .menu-bar {
+        font-size: 2em;
+    }
+
+    .navbar a {
+        color: #fff;
+        padding: 10px;
+        margin: 0 5px;
+        font-size: 0.7em;
+        }
+
+    .section-hero {
+        height: 91vh;
+        padding: 20em 8em;
+    }
+
+    .hero code {
+        font-size: 1.5em;
+    }
+
+    .hero h1 {
+        font-size: 3em;
+    }
+
+    .hero h2 {
+    font-size: 3em;
+    }
+    
+    .hero p {
+        font-size: 1em;
+        width: 20em;
+    }
+
+    .contact-btn {
+    height: 3em;
+    width: 8em; 
+    margin-top: 2em;
+    font-size: 1em;
+    }
+}
+
+/* Extra Small devices (Below 480px) */
+@media only screen and (max-width: 480px) {
+
+    /* Navbar */
+    .container {
+        /* max-width: auto; */
+    }
+
+    .web-header {
+        display: none;
+    }
+
+    .mobile-header {
+        display: block;
+    }
+
+    .menu-bar {
+        font-size: 2em;
+    }
+
+    .navbar a {
+        padding: 10px;
+        margin: 0 5px;
+        font-size: 0.7em;
+        }
+
+    .section-hero {
+        height: 100vh;
+        padding: 20em 8em;
+    }
+
+    .hero code {
+        font-size: 1em;
+    }
+
+    .hero h1 {
+        font-size: 2em;
+    }
+
+    .hero h2 {
+    font-size: 2em;
+    }
+    
+    .hero p {
+        font-size: 1em;
+        width: 20em;
+    }
+
+    .contact-btn {
+    height: 3em;
+    width: 8em; 
+    margin-top: 2em;
+    font-size: 1em;
+    }
+
+}
+
+/* Extra Small devices (Below 400px) */
+@media only screen and (max-width: 400px) {
+
+    /* Navbar */
+    .container {
+        max-width: auto;
+    }
+
+    .web-header {
+        display: none;
+    }
+
+    .mobile-header {
+        display: block;
+    }
+
+    .menu-bar {
+        font-size: 1.5em;
+    }
+
+    .site-logo {
+        height: 3.5em;
+        width: 3.5em;
+    }
+
+    .navbar a {
+        padding: 10px;
+        margin: 0 5px;
+        font-size: 0.7em;
+    }
+
+    .section-hero {
+        height: 100vh;
+        padding: 20em 8em;
+    }
+
+    .hero code {
+        font-size: 1em;
+    }
+
+    .hero h1 {
+        font-size: 1.5em;
+    }
+
+    .hero h2 {
+    font-size: 1.5em;
+    }
+    
+    .hero p {
+        font-size: 0.7em;
+        width: 20em;
+    }
+
+    .contact-btn {
+    height: 3em;
+    width: 8em; 
+    margin-top: 2em;
+    font-size: 0.7em;
+    }
+    
+}
+
+/* Extra Small devices (Below 330px) */
+@media only screen and (max-width: 330px) {
+
+     /* Navbar */
+     .container {
+        max-width: auto;
+    }
+
+    .web-header {
+        display: none;
+    }
+
+    .mobile-header {
+        display: block;
+    }
+
+    .menu-bar {
+        font-size: 1em;
+    }
+
+    .site-logo {
+        height: 3em;
+        width: 3em;
+    }
+
+    .navbar a {
+        padding: 10px;
+        margin: 0 5px;
+        font-size: 0.7em;
+    }
+
+    .section-hero {
+        height: 100vh;
+        padding: 20em 4em;
+    }
+
+    .hero code {
+        font-size: 1em;
+    }
+
+    .hero h1 {
+        font-size: 1.5em;
+    }
+
+    .hero h2 {
+    font-size: 1.5em;
+    }
+    
+    .hero p {
+        font-size: 0.7em;
+        width: 20em;
+    }
+
+    .contact-btn {
+    height: 3em;
+    width: 8em; 
+    margin-top: 2em;
+    font-size: 0.7em;
+    }
+
+}
+    
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+    /* Navbar */
+    
+      .navbar {
+        height: 10em;
+        }
+    
+        .web-header {
+            display: block;
+        }
+    
+        .mobile-header {
+            display: none;
+        }
+    
+      .section-hero {
+          height: 85vh;
+          padding: 8em 8em;
+      }
+    
+      .hero code {
+          font-size: 1.5em;
+      }
+    
+      .hero h1 {
+          font-size: 4em;
+      }
+    
+      .hero h2 {
+        font-size: 4em;
+      }
+      
+      .hero p {
+          font-size: 1em;
+          width: 28em;
+      }
+    
+      .contact-btn {
+        height: 3em;
+        width: 8em; 
+        margin-top: 2em;
+        font-size: 1em;
+      }
+    
+}
+    
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+        /* Navbar */
+.container {
+    max-width: 1200px;
+    }
+
+.navbar {
+    height: 10em;
+    }
+    
+    .navbar a {
+    margin: 0 10px;
+    font-size: 1em;
+    }
+
+    .site-logo {
+        height: 5em;
+        width: 5em;
+    }
+
+    /* HERO */
+
+    .section-hero {
+        height: 90vh;
+        padding: 10em 10em;
+    }
+
+    .hero code {
+        font-size: 1.5em;
+    }
+
+    .hero h1 {
+        font-size: 4em;
+    }
+
+    .hero h2 {
+    font-size: 4em;
+    }
+    
+    .hero p {
+        font-size: 1em;
+        width: 28em;
+    }
+
+    .contact-btn {
+    height: 3em;
+    width: 8em; 
+    margin-top: 2em;
+    font-size: 1em;
+    }
+
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    /* Navbar */
+.container {
+    max-width: 1600px;
+    }
+
+.navbar {
+    height: 7em;
+    }
+    
+    .navbar a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 1em;
+    }
+    
+    .navbar a:hover {
+    border-bottom: 1px #fff solid;
+    }
+    
+    .navbar .flex {
+    justify-content: space-between;
+    }
+
+    .site-logo {
+        height: 5em;
+        width: 5em;
+    }
+
+    .resume-btn {
+        height: 4em;
+        width: 7em;
+        background-color: transparent;
+        border: 1px solid #fff;
+        border-radius: 0.5em;
+    }
+
+    /* HERO */
+
+    .section-hero {
+        background-color: black;
+        height: 89vh;
+        padding: 10em 25em;
+    }
+
+    .hero code {
+        font-size: 1.5em;
+    }
+
+    .hero h1 {
+        font-size: 4em;
+        font-weight: bolder;
+    }
+
+    .hero h2 {
+    font-size: 4em;
+    font-weight: bolder;
+    }
+    .hero p {
+        width: 30em;
+        font-size: 1em;
+    }
+
+    .contact-btn {
+    border: 1px solid white;
+    border-radius: 0.5em;
+    height: 3em;
+    width: 10em; 
+    color: white;   
+    margin-top: 3em;
+    font-size: 1em;
+    }
+
+}
+
+/* For full HD display & above */
+@media only screen and (min-width: 1920px) {
+
+/* Navbar */
+.container {
+    max-width: 2200px;
+    }
+
+.navbar {
+    background-color: black;
+    height: 10em;
+    }
+    
+    .navbar a {
+    margin: 0 10px;
+    font-size: 1.5em;
+    }
+
+    .site-logo {
+        height: 8em;
+        width: 8em;
+    }
+
+    /* HERO */
+
+    .section-hero {
+        height: 130vh;
+        padding: 30em 30em;
+    }
+
+    .hero code {
+        font-size: 2em;
+    }
+
+    .hero h1 {
+        font-size: 8em;
+    }
+
+    .hero h2 {
+    font-size: 8em;
+    }
+    
+    .hero p {
+        font-size: 2em;
+        width: 28em;
+    }
+
+    .contact-btn {
+    border: 1px solid white;
+    border-radius: 0.5em;
+    height: 3em;
+    width: 10em; 
+    color: white;   
+    margin-top: 3em;
+    font-size: 2em;
+    }
+
+
+}
+
+    
