@@ -1,0 +1,344 @@
+/* -------------------------- Fonts Import ------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+/* ---------------------------------------------------------------- */
+
+
+
+/* ------------------------- Root Variables ----------------------- */
+:root {
+  --main-font: 'Lato', sans-serif;
+  --cursive-font: 'Dancing Script', cursive;
+  --color-primary: #123d12;
+  --color-secondary: #3e7047;
+  --color-light: #ffffff;
+  --color-warning: #e2ab21;
+  --color-danger: #660000;
+  --pad-and-gap : 0.4em;
+}
+/* ---------------------------------------------------------------- */
+
+
+
+/* --------------------------- Scroll Bar ------------------------- */
+
+/* Scrollbar Width */
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px transparent; 
+  border-radius: 10px;
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+  background:  var(--color-primary);
+  border-radius: 10px;
+}
+
+/* On hovering at Scrollbar */
+::-webkit-scrollbar-thumb:hover {
+  background:  var(--color-primary);
+}
+/* ---------------------------------------------------------------- */
+
+
+
+/* ------------------------- Basic Resets ----------------------- */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--main-font);
+  line-height: 1.6;
+  padding: 0 var(--pad-and-gap);
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 1rem 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: bottom;
+} 
+
+ul, ol, dl {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li > ul, li > ol {
+  padding-left: 2.5em;
+} 
+
+input, button {
+  margin: 0;
+font: inherit;
+border: none;
+text-decoration: none;
+cursor: pointer;
+background-color: transparent;
+transition: all .2s ease-in-out;
+} 
+
+button:hover {
+transform: scale(1.1);
+}
+
+label{
+transition: all .2s ease-in-out;
+}
+
+label:hover {
+transform: scale(1.07);
+}
+
+fieldset {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  border: none;
+} 
+
+legend {
+  padding: 0;
+  border: none;
+}
+
+ul.ul {
+  list-style-type: disc;
+}
+
+ol.ol {
+  list-style-type: decimal;
+}
+
+ul.ul, ol.ol {
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 2.5em;
+}
+
+fieldset.fieldset {
+  display: block;
+  margin-inline-start: 0.125em;
+  margin-inline-end: 0.125em;
+  padding-block-start: 0.35em;
+  padding-inline-start: 0.75em;
+  padding-inline-end: 0.75em;
+  padding-block-end: 0.625em;
+  min-inline-size: min-content;
+  border-width: 0.125em;
+  border-style: groove;
+  border-color: threedface;
+  border-image: initial;
+}
+
+legend.legend {
+  display: block;
+  padding-inline-start: 0.125em;
+  padding-inline-end: 0.125em;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
+}
+/* ---------------------------------------------------------------- */
+
+
+
+/* ------------------------- Layout Elements ----------------------- */
+.grid {
+  display: grid;
+  gap: 2em;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid-row-gap {
+  grid-gap: 0;
+}
+
+.grid-1 {
+  grid-template-columns: 1fr;
+}
+
+.grid-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-span {
+  grid-column: 2/ span 4;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.loader {
+  height: 100vh;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.loader img {
+  height: 7em;
+  width: 7em;
+}
+/* ---------------------------------------------------------------- */
+
+
+
+/* --------------------------- Text Sizes ------------------------- */
+.lead-text {
+  font-size: 20px;
+}
+
+.xl-text {
+  font-size: 4rem;
+}
+
+.lg-text {
+  font-size: 3rem;
+}
+
+.md-text {
+  font-size: 2rem;
+}
+
+.sm-text {
+  font-size: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+/* ---------------------------------------------------------------- */
+
+
+
+/* ----------------------------- Margins --------------------------- */
+.my-1 {
+  margin: 1rem 0;
+}
+
+.my-2 {
+  margin: 1.5rem 0;
+}
+
+.my-3 {
+  margin: 2rem 0;
+}
+
+.my-4 {
+  margin: 3rem 0;
+}
+
+.my-5 {
+  margin: 4rem 0;
+}
+
+.my-auto{
+  margin: 0 auto;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.m-2 {
+  margin: 1.5rem;
+}
+
+.m-3 {
+  margin: 2rem;
+}
+
+.m-4 {
+  margin: 3rem;
+}
+
+.m-5 {
+  margin: 4rem;
+}
+/* ---------------------------------------------------------------- */
+
+
+
+/* ---------------------------- Paddings -------------------------- */
+.py-1 {
+  padding: 1rem 0;
+}
+
+.py-2 {
+  padding: 1.5rem 0;
+}
+
+.py-3 {
+  padding: 2rem 0;
+}
+
+.py-4 {
+  padding: 3rem 0;
+}
+
+.py-5 {
+  padding: 4rem 0;
+}
+
+.p-1 {
+  padding: 1rem;
+}
+
+.p-2 {
+  padding: 1.5rem;
+}
+
+.p-3 {
+  padding: 2rem;
+}
+
+.p-4 {
+  padding: 3rem;
+}
+
+.p-5 {
+  padding: 4rem;
+}
+/* ---------------------------------------------------------------- */
