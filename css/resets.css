@@ -35,13 +35,14 @@
 
 /* Scrollbar Thumb */
 ::-webkit-scrollbar-thumb {
-  background:  gray;
+  background:  black;
   border-radius: 10px;
+  border: 1px solid white;
 }
 
 /* On hovering at Scrollbar */
 ::-webkit-scrollbar-thumb:hover {
-  background:  gray;
+  background:  black;
 }
 /* ---------------------------------------------------------------- */
 

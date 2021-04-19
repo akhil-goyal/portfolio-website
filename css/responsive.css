@@ -1,0 +1,1053 @@
+@media (min-width: 1281px) {
+  
+    /* HEADER */
+    .container {
+        max-width: 1600px;
+        margin: 0 auto;
+        overflow: auto;
+        padding: 0 40px;
+    }
+    
+    .navbar {
+        background-color: black;
+        color: #fff;
+        height: 7em;
+      }
+      
+      .navbar ul {
+        display: flex;
+      }
+      
+      .navbar a {
+        color: #fff;
+        padding: 10px;
+        margin: 0 5px;
+        font-size: 1em;
+      }
+      
+      .navbar a:hover {
+        border-bottom: 1px #fff solid;
+      }
+      
+      .navbar .flex {
+        justify-content: space-between;
+      }
+    
+      .site-logo {
+          height: 5em;
+          width: 5em;
+      }
+    
+      .resume-btn {
+          height: 4em;
+          width: 7em;
+          background-color: transparent;
+          border: 1px solid #fff;
+          border-radius: 0.5em;
+      }
+    
+      .mobile-header {
+          display: none;
+      }
+
+    /* HERO */
+    .section-hero {
+        background-color: black;
+        height: 91vh;
+        padding: 0em 20em;
+        display: flex;
+        align-items: center;
+    }
+
+    .hero {
+        color:#fff;
+    }
+
+    .hero code {
+        font-size: 1.5em;
+    }
+
+    .hero h1 {
+        font-size: 4em;
+        font-weight: bolder;
+    }
+
+    .hero h2 {
+        font-size: 4em;
+        font-weight: bolder;
+    }
+    .hero p {
+        width: 30em;
+        margin-top: 0.5em;
+    }
+
+    .contact-btn {
+        border: 1px solid white;
+        border-radius: 0.5em;
+        height: 3em;
+        width: 10em; 
+        color: white;   
+        margin-top: 3em;
+    }
+
+    /* ABOUT */
+  .section-about {
+      background-color: black;
+      height: 30em;
+      padding: 0 20em;
+      color: white;
+  }
+
+  .about-title {
+      display: flex;
+      align-items: center;
+  }
+
+  .section-about h1 {
+      font-size: 3em;
+  }
+
+  .section-about code {
+      color: #59ffd0;
+  }
+
+  .horizontal-line {
+      height: 0.1em;
+      width: 16em;
+      background-color: white;
+      margin-left: 1.5em;
+  }
+
+  .about{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-top: 2em;
+  }
+
+  .about-info p:nth-child(2){
+    margin-top: 1em;
+  }
+
+  .about-image {
+      padding-left: 5em;
+  }
+
+  .user-image {
+      height: 15.5em;
+      width: 17.8em;
+      aspect-ratio: 1/1;
+      object-fit: contain;
+      border-radius: 0.5em;
+  }
+    
+}
+  
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+/* HEADER */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.navbar {
+    background-color: black;
+    color: #fff;
+    height: 7em;
+    }
+    
+    .navbar ul {
+    display: flex;
+    }
+    
+    .navbar a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 1em;
+    }
+    
+    .navbar a:hover {
+    border-bottom: 1px #fff solid;
+    }
+    
+    .navbar .flex {
+    justify-content: space-between;
+    }
+
+    .site-logo {
+        height: 5em;
+        width: 5em;
+    }
+
+    .resume-btn {
+        height: 4em;
+        width: 7em;
+        background-color: transparent;
+        border: 1px solid #fff;
+        border-radius: 0.5em;
+    }
+
+    .mobile-header {
+        display: none;
+    }
+
+    /* HERO */
+    .section-hero {
+        background-color: black;
+        height: 91vh;
+        padding: 0em 15em;
+        display: flex;
+        align-items: center;
+    }
+
+    .hero {
+        color:#fff;
+    }
+
+    .hero code {
+        font-size: 1.5em;
+    }
+
+    .hero h1 {
+        font-size: 4em;
+        font-weight: bolder;
+    }
+
+    .hero h2 {
+        font-size: 4em;
+        font-weight: bolder;
+    }
+    .hero p {
+        width: 30em;
+    }
+
+    .contact-btn {
+        border: 1px solid white;
+        border-radius: 0.5em;
+        height: 3em;
+        width: 10em; 
+        color: white;   
+        margin-top: 3em;
+    }
+
+    /* ABOUT */
+  .section-about {
+    background-color: black;
+    height: 40em;
+    padding: 0 15em;
+    color: white;
+}
+
+.about-title {
+    display: flex;
+    align-items: center;
+}
+
+.section-about h1 {
+    font-size: 2.5em;
+}
+
+.section-about code {
+    color: #59ffd0;
+}
+
+.horizontal-line {
+    height: 0.1em;
+    width: 10em;
+    background-color: white;
+    margin-left: 1.5em;
+}
+
+.about{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin-top: 2em;
+}
+
+.about-info p:nth-child(2){
+  margin-top: 1em;
+}
+
+.about-image {
+    padding-left: 5em;
+}
+
+.user-image {
+    height: 13.5em;
+    width: 15.8em;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    border-radius: 0.5em;
+}
+    
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+/* HEADER */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+}
+
+.navbar {
+    background-color: black;
+    color: #fff;
+    height: 7em;
+    }
+    
+    .navbar ul {
+    display: flex;
+    }
+    
+    .navbar a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 1em;
+    }
+    
+    .navbar a:hover {
+    border-bottom: 1px #fff solid;
+    }
+    
+    .navbar .flex {
+    justify-content: space-between;
+    }
+
+    .site-logo {
+        height: 5em;
+        width: 5em;
+    }
+
+    .resume-btn {
+        height: 4em;
+        width: 7em;
+        background-color: transparent;
+        border: 1px solid #fff;
+        border-radius: 0.5em;
+    }
+
+    .mobile-header {
+        display: none;
+    }
+
+    /* HERO */
+    .section-hero {
+        background-color: black;
+        height: 91vh;
+        padding: 0em 10em;
+        display: flex;
+        align-items: center;
+    }
+
+    .hero {
+        color:#fff;
+    }
+
+    .hero code {
+        font-size: 1.5em;
+    }
+
+    .hero h1 {
+        font-size: 3em;
+        font-weight: bolder;
+    }
+
+    .hero h2 {
+        font-size: 3em;
+        font-weight: bolder;
+    }
+    .hero p {
+        width: 30em;
+    }
+
+    .contact-btn {
+        border: 1px solid white;
+        border-radius: 0.5em;
+        height: 3em;
+        width: 10em; 
+        color: white;   
+        margin-top: 3em;
+    }
+
+        /* ABOUT */
+  .section-about {
+    background-color: black;
+    height: 40em;
+    padding: 0 10em;
+    color: white;
+}
+
+.about-title {
+    display: flex;
+    align-items: center;
+}
+
+.section-about h1 {
+    font-size: 2.5em;
+}
+
+.section-about code {
+    color: #59ffd0;
+}
+
+.horizontal-line {
+    height: 0.1em;
+    width: 7em;
+    background-color: white;
+    margin-left: 1.5em;
+}
+
+.about{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  margin-top: 2em;
+}
+
+.about-info p:nth-child(2){
+  margin-top: 1em;
+}
+
+.about-image {
+    padding-left: 5em;
+}
+
+.user-image {
+    height: 10.5em;
+    width: 12.8em;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    border-radius: 0.5em;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+/* HEADER */
+.container {
+max-width: 1000px;
+margin: 0 auto;
+overflow: auto;
+padding: 0 40px;
+}
+
+.navbar {
+background-color: black;
+color: #fff;
+height: 7em;
+}
+
+.navbar ul {
+display: flex;
+}
+
+.navbar a {
+color: #fff;
+padding: 10px;
+margin: 0 5px;
+font-size: 1em;
+}
+
+.navbar a:hover {
+border-bottom: 1px #fff solid;
+}
+
+.navbar .flex {
+justify-content: space-between;
+}
+
+.site-logo {
+    height: 5em;
+    width: 5em;
+}
+
+.resume-btn {
+    height: 4em;
+    width: 7em;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 0.5em;
+}
+
+.mobile-header {
+    display: none;
+}
+
+/* HERO */
+.section-hero {
+    background-color: black;
+    height: 91vh;
+    padding: 0em 10em;
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    color:#fff;
+}
+
+.hero code {
+    font-size: 1.5em;
+}
+
+.hero h1 {
+    font-size: 3em;
+    font-weight: bolder;
+}
+
+.hero h2 {
+    font-size: 3em;
+    font-weight: bolder;
+}
+.hero p {
+    width: 30em;
+}
+
+.contact-btn {
+    border: 1px solid white;
+    border-radius: 0.5em;
+    height: 3em;
+    width: 10em; 
+    color: white;   
+    margin-top: 3em;
+}
+
+        /* ABOUT */
+        .section-about {
+            background-color: black;
+            height: 40em;
+            padding: 0 10em;
+            color: white;
+        }
+        
+        .about-title {
+            display: flex;
+            align-items: center;
+        }
+        
+        .section-about h1 {
+            font-size: 2.5em;
+        }
+        
+        .section-about code {
+            color: #59ffd0;
+        }
+        
+        .horizontal-line {
+            height: 0.1em;
+            width: 7em;
+            background-color: white;
+            margin-left: 1.5em;
+        }
+        
+        .about{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          align-items: center;
+          margin-top: 2em;
+        }
+        
+        .about-info p:nth-child(2){
+          margin-top: 1em;
+        }
+        
+        .about-image {
+            padding-left: 5em;
+        }
+        
+        .user-image {
+            height: 10.5em;
+            width: 12.8em;
+            aspect-ratio: 1/1;
+            object-fit: contain;
+            border-radius: 0.5em;
+        }
+
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+/* HEADER */
+.container {
+max-width: 1000px;
+margin: 0 auto;
+overflow: auto;
+padding: 0 40px;
+}
+
+.navbar {
+background-color: black;
+color: #fff;
+height: 7em;
+}
+
+.navbar ul {
+display: flex;
+}
+
+.navbar a {
+color: #fff;
+padding: 10px;
+margin: 0 5px;
+font-size: 1em;
+}
+
+.navbar a:hover {
+border-bottom: 1px #fff solid;
+}
+
+.navbar .flex {
+justify-content: space-between;
+}
+
+.site-logo {
+    height: 5em;
+    width: 5em;
+}
+
+.resume-btn {
+    height: 4em;
+    width: 7em;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 0.5em;
+}
+
+.menu-bar {
+font-size: 2em;
+}
+
+.web-header {
+    display: none;
+}
+
+.mobile-header {
+    display: block;
+}
+
+/* HERO */
+.section-hero {
+    background-color: black;
+    height: 92vh;
+    padding: 0em 2em;
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    color:#fff;
+}
+
+.hero code {
+    font-size: 1em;
+}
+
+.hero h1 {
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.hero h2 {
+    font-size: 2em;
+    font-weight: bolder;
+}
+.hero p {
+    width: 30em;
+    font-size: 0.9em;
+}
+
+.contact-btn {
+    border: 1px solid white;
+    border-radius: 0.5em;
+    height: 3em;
+    width: 10em; 
+    color: white;   
+    margin-top: 3em;
+    font-size: 0.9em;
+}
+
+        /* ABOUT */
+        .section-about {
+            background-color: black;
+            height: 40em;
+            padding: 0 2em;
+            color: white;
+        }
+        
+        .about-title {
+            display: flex;
+            align-items: center;
+        }
+        
+        .section-about h1 {
+            font-size: 2em;
+        }
+        
+        .section-about code {
+            color: #59ffd0;
+        }
+
+        .section-about p {
+            font-size: 0.9em;
+        }
+        
+        .horizontal-line {
+            height: 0.1em;
+            width: 10em;
+            background-color: white;
+            margin-left: 1.5em;
+        }
+        
+        .about{
+          display: grid;
+          grid-template-columns: 1fr;
+          align-items: center;
+          margin-top: 2em;
+        }
+        
+        .about-info p:nth-child(2){
+          margin-top: 1em;
+        }
+        
+        .about-image {
+            padding-top: 2em;
+        }
+        
+        .user-image {
+            height: 9.5em;
+            width: 11.8em;
+            aspect-ratio: 1/1;
+            object-fit: contain;
+            border-radius: 0.5em;
+        }
+
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+/* HEADER */
+.container {
+max-width: 1000px;
+margin: 0 auto;
+overflow: auto;
+padding: 0 40px;
+}
+
+.navbar {
+background-color: black;
+color: #fff;
+height: 7em;
+}
+
+.navbar ul {
+display: flex;
+}
+
+.navbar a {
+color: #fff;
+padding: 10px;
+margin: 0 5px;
+font-size: 1em;
+}
+
+.navbar a:hover {
+border-bottom: 1px #fff solid;
+}
+
+.navbar .flex {
+justify-content: space-between;
+}
+
+.site-logo {
+    height: 5em;
+    width: 5em;
+}
+
+.resume-btn {
+    height: 4em;
+    width: 7em;
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 0.5em;
+}
+
+.menu-bar {
+font-size: 1.5em;
+}
+
+.web-header {
+    display: none;
+}
+
+.mobile-header {
+    display: block;
+}
+
+/* HERO */
+.section-hero {
+    background-color: black;
+    height: 92vh;
+    padding: 0em 1em;
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    color:#fff;
+}
+
+.hero code {
+    font-size: 1em;
+}
+
+.hero h1 {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.hero h2 {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.hero p {
+    width: 20em;
+    font-size: 0.8em;
+}
+
+.contact-btn {
+    border: 1px solid white;
+    border-radius: 0.5em;
+    height: 3em;
+    width: 10em; 
+    color: white;   
+    margin-top: 3em;
+    font-size: 0.8em;
+}
+
+ /* ABOUT */
+ .section-about {
+    background-color: black;
+    height: 40em;
+    padding: 0 1em;
+    color: white;
+}
+
+.about-title {
+    display: flex;
+    align-items: center;
+}
+
+.section-about h1 {
+    font-size: 1.5em;
+}
+
+.section-about code {
+    color: #59ffd0;
+}
+
+.section-about p {
+    font-size: 0.8em;
+}
+
+.horizontal-line {
+    height: 0.1em;
+    width: 8em;
+    background-color: white;
+    margin-left: 1.5em;
+}
+
+.about{
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.about-info p:nth-child(2){
+  margin-top: 1em;
+}
+
+.about-image {
+    padding-top: 2em;
+}
+
+.user-image {
+    height: 8.5em;
+    width: 10.8em;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    border-radius: 0.5em;
+}
+
+
+}
+
+@media (max-width: 319px) {
+
+    /* HEADER */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 0 40px;
+    }
+    
+    .navbar {
+    background-color: black;
+    color: #fff;
+    height: 7em;
+    }
+    
+    .navbar ul {
+    display: flex;
+    }
+    
+    .navbar a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+    font-size: 1em;
+    }
+    
+    .navbar a:hover {
+    border-bottom: 1px #fff solid;
+    }
+    
+    .navbar .flex {
+    justify-content: space-between;
+    }
+    
+    .site-logo {
+        height: 5em;
+        width: 5em;
+    }
+    
+    .resume-btn {
+        height: 4em;
+        width: 7em;
+        background-color: transparent;
+        border: 1px solid #fff;
+        border-radius: 0.5em;
+    }
+    
+    .menu-bar {
+    font-size: 1.5em;
+    }
+    
+    .web-header {
+        display: none;
+    }
+    
+    .mobile-header {
+        display: block;
+    }
+
+    /* HERO */
+.section-hero {
+    background-color: black;
+    height: 92vh;
+    padding: 0em 1em;
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    color:#fff;
+}
+
+.hero code {
+    font-size: 0.9em;
+}
+
+.hero h1 {
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.hero h2 {
+    font-size: 1em;
+    font-weight: bolder;
+}
+.hero p {
+    width: 20em;
+    font-size: 0.7em;
+}
+
+.contact-btn {
+    border: 1px solid white;
+    border-radius: 0.5em;
+    height: 3em;
+    width: 10em; 
+    color: white;   
+    margin-top: 3em;
+    font-size: 0.7em;
+}
+
+ /* ABOUT */
+ .section-about {
+    background-color: black;
+    height: 40em;
+    padding: 0 1em;
+    color: white;
+}
+
+.about-title {
+    display: flex;
+    align-items: center;
+}
+
+.section-about h1 {
+    font-size: 1em;
+}
+
+.section-about code {
+    color: #59ffd0;
+}
+
+.section-about p {
+    font-size: 0.7em;
+}
+
+.horizontal-line {
+    height: 0.1em;
+    width: 2em;
+    background-color: white;
+    margin-left: 1.5em;
+}
+
+.about{
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  margin-top: 2em;
+}
+
+.about-info p:nth-child(2){
+  margin-top: 1em;
+}
+
+.about-image {
+    padding-top: 2em;
+}
+
+.user-image {
+    height: 7.5em;
+    width: 9.8em;
+    aspect-ratio: 1/1;
+    object-fit: contain;
+    border-radius: 0.5em;
+}
+
+
+}
