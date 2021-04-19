@@ -424,7 +424,7 @@
     }
   
     .section-about h1 {
-        font-size: 1.5em;
+        font-size: 1em;
     }
   
     .section-about code {
@@ -541,7 +541,7 @@
     }
   
     .section-about h1 {
-        font-size: 1.5em;
+        font-size: 1em;
     }
   
     .section-about code {
@@ -550,7 +550,7 @@
   
     .horizontal-line {
         height: 0.1em;
-        width: 9em;
+        width: 7em;
         background-color: white;
         margin-left: 1.5em;
     }
@@ -667,7 +667,7 @@
   
     .horizontal-line {
         height: 0.1em;
-        width: 6em;
+        width: 4em;
         background-color: white;
         margin-left: 1.5em;
     }
@@ -1016,7 +1016,7 @@
   
     .horizontal-line {
         height: 0.1em;
-        width: 12em;
+        width: 10em;
         background-color: white;
         margin-left: 1.5em;
     }
