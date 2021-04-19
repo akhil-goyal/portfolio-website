@@ -139,3 +139,18 @@ margin-top: 1em;
   object-fit: contain;
   border-radius: 0.5em;
 }
+
+.section-technologies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.technology {
+  display: flex;
+  align-items: baseline;
+  justify-content: start;
+}
+
+.section-technologies p {
+  margin-left: 0.5em;
+}
