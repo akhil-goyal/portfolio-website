@@ -93,7 +93,7 @@
     /* ABOUT */
   .section-about {
       background-color: black;
-      height: 30em;
+      height: 40em;
       padding: 0 20em;
       color: white;
   }
@@ -141,7 +141,7 @@
       border-radius: 0.5em;
   }
 
-  /* SKILLS */
+  /* TECHNOLOGIES */
 
   .section-technologies {
       display: grid;
@@ -158,6 +158,69 @@
       margin-left: 0.5em;
   }
 
+  .fa-caret-right {
+    color: #59ffd0;
+  }
+
+  /* SKILLS */
+
+  .section-skills {
+    background-color: black;
+    height: 35em;
+    padding: 0 20em;
+    color: white;
+}
+
+.skills-title {
+    display: flex;
+    align-items: center;
+}
+
+.section-skills h1 {
+    font-size: 3em;
+}
+
+.section-skills code {
+    color: #59ffd0;
+}
+
+.skills-horizontal-line {
+    height: 0.1em;
+    width: 16em;
+    background-color: white;
+    margin-left: 1.5em;
+}
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 4em;
+    margin-top: 2em;
+}
+
+.skill {
+    width: 20em;
+}
+
+.skill p {
+    margin-top: 0.5em;
+}
+
+.skill-title {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.skill-graphic {
+    font-size: 1.5em;
+    color: #59ffd0;
+}
+
+.skill-title h4 {
+    margin-left: 0.5em;
+    font-size: 1.4em;
+}
     
 }
   
@@ -303,7 +366,7 @@
     border-radius: 0.5em;
 }
     
-  /* SKILLS */
+  /* TECHNOLOGIES */
 
   .section-technologies {
     display: grid;
@@ -319,6 +382,11 @@
 .section-technologies p {
     margin-left: 0.5em;
 }
+
+.fa-caret-right {
+    color: #59ffd0;
+  }
+
 
 
 }
@@ -465,7 +533,7 @@
     border-radius: 0.5em;
 }
 
-  /* SKILLS */
+  /* TECHNOLOGIES */
 
   .section-technologies {
     display: grid;
@@ -482,6 +550,11 @@
     .section-technologies p {
         margin-left: 0.5em;
     }
+
+    .fa-caret-right {
+        color: #59ffd0;
+      }
+    
 
 }
 
@@ -627,7 +700,7 @@ justify-content: space-between;
             border-radius: 0.5em;
         }
 
-          /* SKILLS */
+          /* TECHNOLOGIES */
 
   .section-technologies {
     display: grid;
@@ -644,6 +717,11 @@ justify-content: space-between;
     .section-technologies p {
         margin-left: 0.5em;
     }
+
+    .fa-caret-right {
+        color: #59ffd0;
+      }
+    
 
 }
 
@@ -803,7 +881,7 @@ font-size: 2em;
             border-radius: 0.5em;
         }
 
-          /* SKILLS */
+          /* TECHNOLOGIES */
 
   .section-technologies {
     display: grid;
@@ -824,6 +902,11 @@ font-size: 2em;
     .fa-caret-right {
         font-size: 0.9em;
     }
+
+    .fa-caret-right {
+        color: #59ffd0;
+      }
+    
 
 }
 
@@ -983,7 +1066,7 @@ font-size: 1.5em;
     border-radius: 0.5em;
 }
 
-          /* SKILLS */
+          /* TECHNOLOGIES */
 
           .section-technologies {
             display: grid;
@@ -1004,6 +1087,11 @@ font-size: 1.5em;
             .fa-caret-right {
                 font-size: 0.8em;
             }
+
+            .fa-caret-right {
+                color: #59ffd0;
+              }
+            
 
 }
 
@@ -1163,7 +1251,7 @@ font-size: 1.5em;
     border-radius: 0.5em;
 }
 
-/* SKILLS */
+/* TECHNOLOGIES */
 
 .section-technologies {
     display: grid;
@@ -1184,6 +1272,11 @@ font-size: 1.5em;
     .fa-caret-right {
         font-size: 0.7em;
     }
+
+    .fa-caret-right {
+        color: #59ffd0;
+      }
+    
 
 
 }

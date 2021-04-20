@@ -90,7 +90,7 @@ li > ul, li > ol {
 } 
 
 input, button {
-  margin: 0;
+margin: 0;
 font: inherit;
 border: none;
 text-decoration: none;
