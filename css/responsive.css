@@ -166,7 +166,7 @@
 
   .section-skills {
     background-color: black;
-    height: 35em;
+    height: 45em;
     padding: 0 20em;
     color: white;
 }
@@ -222,7 +222,89 @@
     margin-left: 0.5em;
     font-size: 1.4em;
 }
-    
+
+/* PROJECTS */
+
+.section-projects {
+    background-color: black;
+    height: 35em;
+    padding: 0 20em;
+    color: white;
+}
+
+.projects-title {
+    display: flex;
+    align-items: center;
+}
+
+.section-projects h1 {
+    font-size: 3em;
+}
+
+.section-projects code {
+    color: #59ffd0;
+}
+
+.projects-horizontal-line {
+    height: 0.1em;
+    width: 16em;
+    background-color: white;
+    margin-left: 1.5em;
+}
+
+.projects {
+    display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+}
+
+.project-categories {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1em;
+}
+
+.project-categories p {
+    cursor: pointer;
+}
+
+input[type = "submit"] {
+    color: white;
+}
+
+input[type = "submit"]:hover {
+    color: #59ffd0;
+}
+
+input[type = "submit"]:focus {
+    outline: none;
+    color: #59ffd0;
+}
+
+.project-display {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    position: relative;
+    margin-left: 1em;
+    background-color: burlywood;
+}
+
+.box {
+    height: 16em;
+    width: 55em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #757575;
+}
+
+.hidden {
+    display: none;
+}
+
+
 }
   
 @media (min-width: 1025px) and (max-width: 1280px) {
