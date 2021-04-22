@@ -227,7 +227,7 @@
 
 .section-projects {
     background-color: black;
-    height: 35em;
+    height: 100em;
     padding: 0 20em;
     color: white;
 }
@@ -252,58 +252,130 @@
     margin-left: 1.5em;
 }
 
-.projects {
-    display: flex;
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr); */
-}
-
-.project-categories {
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 1em;
-}
-
-.project-categories p {
-    cursor: pointer;
-}
-
-input[type = "submit"] {
-    color: white;
-}
-
-input[type = "submit"]:hover {
-    color: #59ffd0;
-}
-
-input[type = "submit"]:focus {
-    outline: none;
-    color: #59ffd0;
-}
-
-.project-display {
+.project-1,
+.project-2,
+.project-3
+{
     display: flex;
     align-items: center;
-    justify-content: start;
     position: relative;
-    margin-left: 1em;
-    background-color: burlywood;
 }
 
-.box {
-    height: 16em;
-    width: 55em;
+.project-1 img,
+.project-3 img
+{
+    width: 55%;
+    border-radius: 0.5em;
+}
+
+.project-1-info,
+.project-3-info
+{
     position: absolute;
+    margin-left: 35em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: end;
+}
+
+.project-1-info code,
+.project-2-info code,
+.project-3-info code
+{
+    margin-bottom: 0.5em;
+}
+
+.project-1-info h2,
+.project-2-info h2,
+.project-3-info h2
+{
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.project-1-info code:nth-child(1),
+.project-2-info code:nth-child(1),
+.project-3-info code:nth-child(1)
+{
+    font-size: 1.05em;
+}
+
+.project-1-description,
+.project-2-description,
+.project-3-description
+{
+    background-color: rgb(75, 75, 75);
+    width: 33em;
+    padding: 1em 2em;
+    border-radius: 0.5em;
+    margin: 1.5em 0em;
+}
+
+.project-1-technologies,
+.project-2-technologies,
+.project-3-technologies  
+{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #757575;
 }
 
-.hidden {
-    display: none;
+.project-1-technologies code,
+.project-2-technologies code,
+.project-3-technologies code
+{
+    color: rgb(197, 197, 197);
 }
 
+.project-1-links,
+.project-2-links,
+.project-3-links
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.5em;
+}
+
+.project-1-links i,
+.project-2-links i,
+.project-3-links i 
+{
+    font-size: 1.5em;
+}
+
+.project-1-technologies code:not(:last-child),
+.project-2-technologies code:not(:last-child),
+.project-3-technologies code:not(:last-child),
+.project-1-links i:not(:last-child),
+.project-2-links i:not(:last-child),
+.project-3-links i:not(:last-child)
+{ 
+    margin-right: 1em;
+}
+
+.project-2,
+.project-3
+{
+    margin-top: 7em;
+}
+
+.project-2 img{
+    width: 55%;
+    border-radius: 0.5em;
+    margin-left: 29em;
+}
+
+.project-2-info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: start;
+}
 
 }
   
