@@ -1655,19 +1655,29 @@ font-size: 2em;
             margin-left: 1.5em;
         }
         
-        .about{
-          display: grid;
-          grid-template-columns: 1fr;
-          align-items: center;
-          margin-top: 2em;
+        /* ------------ */
+        .about{ 
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: stretch;
+        margin-top: 2em;
         }
         
-        .about-info p:nth-child(2){
-          margin-top: 1em;
+        /* ------------ */
+        /* .about-info p:nth-child(2){
+          margin-top: 5em;
         }
-        
+         */
+
+         /* --------- */
         .about-image {
-            padding-top: 2em;
+            padding-left: 0em;
+            /* padding-top: 2em; */
+        }
+
+        /* ------ */
+        .about-info {
+            margin-top: 2em;
         }
         
         .user-image {
@@ -2074,21 +2084,39 @@ font-size: 1.5em;
     background-color: white;
     margin-left: 1.5em;
 }
+    
+    /* ------------ */
+    /* .about-info p:nth-child(2){
+      margin-top: 5em;
+    }
+     */
 
-.about{
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-  margin-top: 2em;
-}
+     /* --------- */
+    .about-image {
+        padding-left: 0em;
+        /* padding-top: 2em; */
+    }
 
-.about-info p:nth-child(2){
-  margin-top: 1em;
-}
+    /* ------ */
+    .about-info {
+        margin-top: 2em;
+    }
 
-.about-image {
-    padding-top: 2em;
-}
+/* ----- */
+ .about{ 
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: stretch;
+    margin-top: 2em;
+    }
+
+    .about-image {
+        padding-left: 0em;
+    }
+
+    .about-info {
+        margin-top: 2em;
+    }
 
 .user-image {
     height: 8.5em;
@@ -2496,19 +2524,16 @@ font-size: 1.5em;
     margin-left: 1.5em;
 }
 
-.about{
-  display: grid;
-  grid-template-columns: 1fr;
-  align-items: center;
-  margin-top: 2em;
-}
 
-.about-info p:nth-child(2){
-  margin-top: 1em;
+.about{ 
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: stretch;
+    margin-top: 2em;
 }
 
 .about-image {
-    padding-top: 2em;
+    padding-left: 0em;
 }
 
 .user-image {
@@ -2518,6 +2543,11 @@ font-size: 1.5em;
     object-fit: contain;
     border-radius: 0.5em;
 }
+
+.about-info {
+    margin-top: 2em;
+}
+
 
 /* TECHNOLOGIES */
 
