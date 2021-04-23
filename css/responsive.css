@@ -521,7 +521,7 @@
 
 .section-contact {
     background-color: black;
-    height: 70em;
+    height: 30em;
     padding: 0 20em;
     color: white;
 }
@@ -556,6 +556,48 @@
     color: #59ffd0;
     border-radius: 0.5em;
     margin-top: 2em;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    height: 10em;
+    padding: 0em 20em;
+    color: white;
+    display: grid;
+}
+
+footer i {
+    color: #59ffd0;
+}
+
+footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .social > a {
+    margin: 0em 1em;
+    font-size: 1.2em;
+    color: #59ffd0;
+}
+
+footer .details {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .details p {
+    margin: 0em 0.5em;
 }
 
 }
