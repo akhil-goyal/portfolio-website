@@ -1085,6 +1085,47 @@
     color: #59ffd0;
 }
 
+/* CONTACT */
+
+.section-contact {
+    background-color: black;
+    height: 70em;
+    padding: 0 20em;
+    color: white;
+}
+
+.contact-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-title code {
+    color: #59ffd0;
+}
+
+.section-contact h1 {
+    font-size: 2.5em;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0em 0em;
+    margin-top: 2em;
+}
+
+.button-contact {
+    padding: 0.8em 2em;
+    border: 0.1em solid #59ffd0;
+    color: #59ffd0;
+    border-radius: 0.5em;
+    margin-top: 2em;
+}
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -1619,6 +1660,49 @@
     color: #59ffd0;
 }
 
+
+/* CONTACT */
+
+.section-contact {
+    background-color: black;
+    height: 70em;
+    padding: 0 12em;
+    color: white;
+}
+
+.contact-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-title code {
+    color: #59ffd0;
+}
+
+.section-contact h1 {
+    font-size: 2.5em;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0em 0em;
+    margin-top: 2em;
+}
+
+.button-contact {
+    padding: 0.8em 2em;
+    border: 0.1em solid #59ffd0;
+    color: #59ffd0;
+    border-radius: 0.5em;
+    margin-top: 2em;
+}
+
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -2151,6 +2235,47 @@ justify-content: space-between;
 
 .pricing-note {
     color: #59ffd0;
+}
+
+/* CONTACT */
+
+.section-contact {
+    background-color: black;
+    height: 70em;
+    padding: 0 12em;
+    color: white;
+}
+
+.contact-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-title code {
+    color: #59ffd0;
+}
+
+.section-contact h1 {
+    font-size: 2.5em;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0em 0em;
+    margin-top: 2em;
+}
+
+.button-contact {
+    padding: 0.8em 2em;
+    border: 0.1em solid #59ffd0;
+    color: #59ffd0;
+    border-radius: 0.5em;
+    margin-top: 2em;
 }
 
 }
@@ -2740,6 +2865,52 @@ font-size: 2em;
 
 .pricing-note {
     color: #59ffd0;
+}
+
+/* CONTACT */
+
+.section-contact {
+    background-color: black;
+    height: 70em;
+    padding: 0 2em;
+    color: white;
+}
+
+.contact-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-title code {
+    color: #59ffd0;
+}
+
+.section-contact h1 {
+    font-size: 2em;
+}
+
+.section-contact p {
+    font-size: 0.9em;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0em 0em;
+    margin-top: 2em;
+}
+
+.button-contact {
+    padding: 0.5em 1em;
+    border: 0.1em solid #59ffd0;
+    color: #59ffd0;
+    border-radius: 0.5em;
+    margin-top: 2em;
+    font-size: 0.9em;
 }
 
 }
@@ -3343,6 +3514,52 @@ font-size: 1.5em;
     color: #59ffd0;
 }
 
+/* CONTACT */
+
+.section-contact {
+    background-color: black;
+    height: 70em;
+    padding: 0 1em;
+    color: white;
+}
+
+.contact-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-title code {
+    color: #59ffd0;
+}
+
+.section-contact h1 {
+    font-size: 1.5em;
+}
+
+.section-contact p {
+    font-size: 0.8em;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0em 0em;
+    margin-top: 2em;
+}
+
+.button-contact {
+    padding: 0.5em 1em;
+    border: 0.1em solid #59ffd0;
+    color: #59ffd0;
+    border-radius: 0.5em;
+    margin-top: 2em;
+    font-size: 0.8em;
+}
+
 
 }
 
@@ -3927,6 +4144,52 @@ font-size: 1.5em;
 
 .pricing-note {
     color: #59ffd0;
+}
+
+/* CONTACT */
+
+.section-contact {
+    background-color: black;
+    height: 70em;
+    padding: 0 1em;
+    color: white;
+}
+
+.contact-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-title code {
+    color: #59ffd0;
+}
+
+.section-contact h1 {
+    font-size: 1em;
+}
+
+.section-contact p {
+    font-size: 0.7em;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0em 0em;
+    margin-top: 2em;
+}
+
+.button-contact {
+    padding: 0.5em 1em;
+    border: 0.1em solid #59ffd0;
+    color: #59ffd0;
+    border-radius: 0.5em;
+    margin-top: 2em;
+    font-size: 0.7em;
 }
 
 }
