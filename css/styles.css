@@ -512,3 +512,44 @@ margin-top: 1em;
 .pricing-note {
   color: #59ffd0;
 }
+
+/* CONTACT */
+
+.section-contact {
+  background-color: black;
+  height: 70em;
+  padding: 0 20em;
+  color: white;
+}
+
+.contact-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-title code {
+  color: #59ffd0;
+}
+
+.section-contact h1 {
+  font-size: 3em;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0em 15em;
+  margin-top: 2em;
+}
+
+.button-contact {
+  padding: 1em 3em;
+  border: 0.1em solid #59ffd0;
+  color: #59ffd0;
+  border-radius: 0.5em;
+  margin-top: 2em;
+}
