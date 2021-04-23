@@ -1132,7 +1132,7 @@ footer .details p {
 .section-contact {
     background-color: black;
     height: 70em;
-    padding: 0 20em;
+    padding: 0 15em;
     color: white;
 }
 
@@ -1166,6 +1166,48 @@ footer .details p {
     color: #59ffd0;
     border-radius: 0.5em;
     margin-top: 2em;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    height: 10em;
+    padding: 0em 15em;
+    color: white;
+    display: grid;
+}
+
+footer i {
+    color: #59ffd0;
+}
+
+footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .social > a {
+    margin: 0em 0.7em;
+    font-size: 1.2em;
+    color: #59ffd0;
+}
+
+footer .details {
+    display: flex;
+    align-items: center;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+footer .details p {
+    margin: 0em 0.3em;
+    font-size: 0.8em;
 }
 
 }
@@ -1744,6 +1786,49 @@ footer .details p {
     margin-top: 2em;
 }
 
+/* FOOTER */
+
+footer {
+    background-color: black;
+    height: 10em;
+    padding: 0em 10em;
+    color: white;
+    display: grid;
+}
+
+footer i {
+    color: #59ffd0;
+}
+
+footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .social > a {
+    margin: 0em 0.7em;
+    font-size: 1.2em;
+    color: #59ffd0;
+}
+
+footer .details {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+footer .details p {
+    margin: 0em 0.3em;
+    font-size: 1em;
+}
+
 
 }
 
@@ -2318,6 +2403,49 @@ justify-content: space-between;
     color: #59ffd0;
     border-radius: 0.5em;
     margin-top: 2em;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    height: 10em;
+    padding: 0em 10em;
+    color: white;
+    display: grid;
+}
+
+footer i {
+    color: #59ffd0;
+}
+
+footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .social > a {
+    margin: 0em 0.7em;
+    font-size: 1.2em;
+    color: #59ffd0;
+}
+
+footer .details {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+footer .details p {
+    margin: 0em 0.3em;
+    font-size: 1em;
 }
 
 }
@@ -2952,6 +3080,49 @@ font-size: 2em;
     color: #59ffd0;
     border-radius: 0.5em;
     margin-top: 2em;
+    font-size: 0.9em;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    height: 10em;
+    padding: 0em 2em;
+    color: white;
+    display: grid;
+}
+
+footer i {
+    color: #59ffd0;
+}
+
+footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .social > a {
+    margin: 0em 0.7em;
+    font-size: 1.1em;
+    color: #59ffd0;
+}
+
+footer .details {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+footer .details p {
+    margin: 0em 0.3em;
     font-size: 0.9em;
 }
 
@@ -3602,6 +3773,48 @@ font-size: 1.5em;
     font-size: 0.8em;
 }
 
+/* FOOTER */
+
+footer {
+    background-color: black;
+    height: 10em;
+    padding: 0em 1em;
+    color: white;
+    display: grid;
+}
+
+footer i {
+    color: #59ffd0;
+}
+
+footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .social > a {
+    margin: 0em 0.7em;
+    font-size: 1em;
+    color: #59ffd0;
+}
+
+footer .details {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+footer .details p {
+    margin: 0em 0.3em;
+    font-size: 0.8em;
+}
 
 }
 
@@ -4231,6 +4444,49 @@ font-size: 1.5em;
     color: #59ffd0;
     border-radius: 0.5em;
     margin-top: 2em;
+    font-size: 0.7em;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: black;
+    height: 10em;
+    padding: 0em 1em;
+    color: white;
+    display: grid;
+}
+
+footer i {
+    color: #59ffd0;
+}
+
+footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .social > a {
+    margin: 0em 0.7em;
+    font-size: 0.9em;
+    color: #59ffd0;
+}
+
+footer .details {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+
+.detail {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+footer .details p {
+    margin: 0em 0.3em;
     font-size: 0.7em;
 }
 
