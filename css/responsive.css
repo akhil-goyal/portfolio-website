@@ -605,7 +605,25 @@ footer .details p {
 .side-bar {
     display: none;
   }
+
+  /* TOP BUTTON */
+  .top-button div {
+    height: 3.5em; 
+    width: 3.5em; 
+    background-color: rgb(122, 122, 122); 
+    color: white; 
+    border-radius: 0.5em; 
+    position: fixed; 
+    bottom: 4em; 
+    right: 4em;
+    cursor: pointer;
+    box-shadow: 0 0.4em 0.8em 0 rgba(0, 0, 0, 0.2), 0 0.6em 2em 0 rgba(0, 0, 0, 0.19);
+  }
   
+  .top-button p {
+    font-size: 1.5em
+  }
+
 }
   
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -1221,6 +1239,24 @@ footer .details p {
 .side-bar {
     display: none;
   }
+
+    /* TOP BUTTON */
+    .top-button div {
+        height: 3.5em; 
+        width: 3.5em; 
+        background-color: rgb(122, 122, 122); 
+        color: white; 
+        border-radius: 0.5em; 
+        position: fixed; 
+        bottom: 3em; 
+        right: 4em;
+        cursor: pointer;
+        box-shadow: 0 0.4em 0.8em 0 rgba(0, 0, 0, 0.2), 0 0.6em 2em 0 rgba(0, 0, 0, 0.19);
+      }
+      
+      .top-button p {
+        font-size: 1.5em
+      }
 
 }
 
@@ -1848,6 +1884,24 @@ footer .details p {
     display: none;
   }
 
+      /* TOP BUTTON */
+      .top-button div {
+        height: 3.5em; 
+        width: 3.5em; 
+        background-color: rgb(122, 122, 122); 
+        color: white; 
+        border-radius: 0.5em; 
+        position: fixed; 
+        bottom: 3em; 
+        right: 4em;
+        cursor: pointer;
+        box-shadow: 0 0.4em 0.8em 0 rgba(0, 0, 0, 0.2), 0 0.6em 2em 0 rgba(0, 0, 0, 0.19);
+      }
+      
+      .top-button p {
+        font-size: 1.5em
+      }
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -2465,6 +2519,30 @@ footer .details p {
     margin: 0em 0.3em;
     font-size: 1em;
 }
+
+/* SIDEBAR */
+
+.side-bar {
+    display: none;
+  }
+
+     /* TOP BUTTON */
+     .top-button div {
+        height: 3.5em; 
+        width: 3.5em; 
+        background-color: rgb(122, 122, 122); 
+        color: white; 
+        border-radius: 0.5em; 
+        position: fixed; 
+        bottom: 3em; 
+        right: 4em;
+        cursor: pointer;
+        box-shadow: 0 0.4em 0.8em 0 rgba(0, 0, 0, 0.2), 0 0.6em 2em 0 rgba(0, 0, 0, 0.19);
+      }
+      
+      .top-button p {
+        font-size: 1.5em
+      }
 
 }
 
@@ -3211,6 +3289,24 @@ footer .details p {
       color: #59ffd0;
       font-size: 1em;
   }
+
+       /* TOP BUTTON */
+       .top-button div {
+        height: 3.5em; 
+        width: 3.5em; 
+        background-color: rgb(122, 122, 122); 
+        color: white; 
+        border-radius: 0.5em; 
+        position: fixed; 
+        bottom: 3em; 
+        right: 4em;
+        cursor: pointer;
+        box-shadow: 0 0.4em 0.8em 0 rgba(0, 0, 0, 0.2), 0 0.6em 2em 0 rgba(0, 0, 0, 0.19);
+      }
+      
+      .top-button p {
+        font-size: 1.5em
+      }
 
 }
 
@@ -3969,6 +4065,24 @@ footer .details p {
       color: #59ffd0;
   }
 
+  /* TOP BUTTON */
+  .top-button div {
+    height: 3em; 
+    width: 3em; 
+    background-color: rgb(122, 122, 122); 
+    color: white; 
+    border-radius: 0.5em; 
+    position: fixed; 
+    bottom: 3em; 
+    right: 4em;
+    cursor: pointer;
+    box-shadow: 0 0.4em 0.8em 0 rgba(0, 0, 0, 0.2), 0 0.6em 2em 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .top-button p {
+    font-size: 1.2em
+  }
+
 }
 
 @media (max-width: 319px) {
@@ -4703,6 +4817,25 @@ footer .details p {
       margin-top: 0.5em;
       color: #59ffd0;
   }
+
+    /* TOP BUTTON */
+    .top-button div {
+        height: 2.5em; 
+        width: 2.5em; 
+        background-color: rgb(122, 122, 122); 
+        color: white; 
+        border-radius: 0.5em; 
+        position: fixed; 
+        bottom: 2em; 
+        right: 2em;
+        cursor: pointer;
+        box-shadow: 0 0.4em 0.8em 0 rgba(0, 0, 0, 0.2), 0 0.6em 2em 0 rgba(0, 0, 0, 0.19);
+      }
+      
+      .top-button p {
+        font-size: 1em
+      }
+    
 
 }
 
