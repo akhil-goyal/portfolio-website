@@ -600,6 +600,12 @@ footer .details p {
     margin: 0em 0.5em;
 }
 
+/* SIDEBAR */
+
+.side-bar {
+    display: none;
+  }
+  
 }
   
 @media (min-width: 1025px) and (max-width: 1280px) {
@@ -1209,6 +1215,12 @@ footer .details p {
     margin: 0em 0.3em;
     font-size: 0.8em;
 }
+
+/* SIDEBAR */
+
+.side-bar {
+    display: none;
+  }
 
 }
 
@@ -1829,6 +1841,12 @@ footer .details p {
     font-size: 1em;
 }
 
+
+/* SIDEBAR */
+
+.side-bar {
+    display: none;
+  }
 
 }
 
@@ -3126,6 +3144,74 @@ footer .details p {
     font-size: 0.9em;
 }
 
+/* SIDEBAR */
+
+.side-bar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(29, 29, 29);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .sidebar-header {
+      height: 7em;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 0em 3em;
+  }
+
+  .sidebar-header i {
+      font-size: 2.2em;
+      color: #59ffd0;
+      font-weight: bold;
+  }
+
+  .sidebar-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .sidebar-body a {
+      color: white;
+      font-size: 1.2em;
+  }
+
+  .sidebar-body code {
+    color: #59ffd0;
+    font-size: 1.2em;
+  }
+
+  .sidebar-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: left;
+      margin: 1em 0em;
+  }
+
+  .sidebar-close {
+    font-size: 2em;
+    color: #59ffd0;
+  }
+
+  .sidebar-resume a{
+      border: 0.1em solid #59ffd0;
+      padding: 0.5em 3em;
+      border-radius: 0.5em;
+      margin-top: 0.5em;
+      color: #59ffd0;
+      font-size: 1em;
+  }
+
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
@@ -3816,6 +3902,73 @@ footer .details p {
     font-size: 0.8em;
 }
 
+/* SIDEBAR */
+
+.side-bar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(29, 29, 29);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .sidebar-header {
+      height: 7em;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 0em 3em;
+  }
+
+  .sidebar-header i {
+      font-size: 2em;
+      color: #59ffd0;
+      font-weight: bold;
+  }
+
+  .sidebar-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .sidebar-body a {
+      color: white;
+      font-size: 1em;
+  }
+
+  .sidebar-body code {
+    color: #59ffd0;
+    font-size: 1em;
+  }
+
+  .sidebar-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: left;
+      margin: 1em 0em;
+  }
+
+  .sidebar-close {
+    font-size: 2em;
+    color: #59ffd0;
+  }
+
+  .sidebar-resume a{
+      border: 0.1em solid #59ffd0;
+      padding: 0.5em 3em;
+      border-radius: 0.5em;
+      margin-top: 0.5em;
+      color: #59ffd0;
+  }
+
 }
 
 @media (max-width: 319px) {
@@ -4489,6 +4642,67 @@ footer .details p {
     margin: 0em 0.3em;
     font-size: 0.7em;
 }
+
+/* SIDEBAR */
+
+.side-bar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: rgb(29, 29, 29);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .sidebar-header {
+      height: 7em;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 0em 3em;
+  }
+
+  .sidebar-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .sidebar-body a {
+      color: white;
+      font-size: 0.8em;
+  }
+
+  .sidebar-body code {
+    color: #59ffd0;
+    font-size: 1em;
+  }
+
+  .sidebar-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: left;
+      margin: 1em 0em;
+  }
+
+  .sidebar-close {
+    font-size: 2em;
+    color: #59ffd0;
+  }
+
+  .sidebar-resume a{
+      border: 0.1em solid #59ffd0;
+      padding: 0.5em 3em;
+      border-radius: 0.5em;
+      margin-top: 0.5em;
+      color: #59ffd0;
+  }
 
 }
 
