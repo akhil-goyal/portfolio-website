@@ -413,13 +413,14 @@
     padding: 1em 2em;
 }
 
-.extra-head i{
-    font-size: 1.5em;
+.extra-head:first-child {
+    color: #59ffd0;
+    font-size: 2em;
 }
 
-.extra-head i:nth-child(1){
-    font-size: 2.5em;
-    color: #59ffd0;
+.extra-head a {
+    color: white;
+    font-size: 0.8em;
 }
 
 .extra-body {
@@ -429,6 +430,10 @@
     justify-content: center;
     text-align: center;
     padding: 5em 2em;
+}
+
+.extra-body >* {
+    padding: 0.2em 0em;
 }
 
 .extra-footer {
@@ -1048,13 +1053,18 @@ footer .details p {
     padding: 1em 2em;
 }
 
-.extra-head i{
-    font-size: 1.5em;
+.extra-head:first-child {
+    color: #59ffd0;
+    font-size: 2em;
 }
 
-.extra-head i:nth-child(1){
-    font-size: 2em;
-    color: #59ffd0;
+.extra-head a {
+    color: white;
+    font-size: 0.8em;
+}
+
+.extra-body >* {
+    padding: 0.2em 0em;
 }
 
 .extra-body {
@@ -1685,13 +1695,18 @@ footer .details p {
     padding: 1em 2em;
 }
 
-.extra-head i{
-    font-size: 1.3em;
+.extra-head:first-child {
+    color: #59ffd0;
+    font-size: 1.8em;
 }
 
-.extra-head i:nth-child(1){
-    font-size: 1.8em;
-    color: #59ffd0;
+.extra-head a {
+    color: white;
+    font-size: 0.8em;
+}
+
+.extra-body >* {
+    padding: 0.2em 0em;
 }
 
 .extra-body {
@@ -2330,13 +2345,18 @@ justify-content: space-between;
     padding: 1em 2em;
 }
 
-.extra-head i{
-    font-size: 1.3em;
+.extra-head:first-child {
+    color: #59ffd0;
+    font-size: 1.8em;
 }
 
-.extra-head i:nth-child(1){
-    font-size: 1.8em;
-    color: #59ffd0;
+.extra-head a {
+    color: white;
+    font-size: 0.8em;
+}
+
+.extra-body >* {
+    padding: 0.2em 0em;
 }
 
 .extra-body {
@@ -3020,13 +3040,18 @@ font-size: 2em;
     padding: 1em 1.5em;
 }
 
-.extra-head i{
-    font-size: 1.3em;
+.extra-head:first-child {
+    color: #59ffd0;
+    font-size: 1.8em;
 }
 
-.extra-head i:nth-child(1){
-    font-size: 1.8em;
-    color: #59ffd0;
+.extra-head a {
+    color: white;
+    font-size: 0.8em;
+}
+
+.extra-body >* {
+    padding: 0.2em 0em;
 }
 
 .extra-body {
@@ -3793,13 +3818,18 @@ font-size: 1.5em;
     padding: 1em 1em;
 }
 
-.extra-head i{
-    font-size: 1em;
+.extra-head:first-child {
+    color: #59ffd0;
+    font-size: 1.5em;
 }
 
-.extra-head i:nth-child(1){
-    font-size: 1.5em;
-    color: #59ffd0;
+.extra-head a {
+    color: white;
+    font-size: 0.8em;
+}
+
+.extra-body >* {
+    padding: 0.2em 0em;
 }
 
 .extra-body {
@@ -4553,13 +4583,18 @@ footer .details p {
     padding: 0.8em 1em;
 }
 
-.extra-head i{
+.extra-head:first-child {
+    color: #59ffd0;
+    font-size: 1.3em;
+}
+
+.extra-head a {
+    color: white;
     font-size: 0.8em;
 }
 
-.extra-head i:nth-child(1){
-    font-size: 1.3em;
-    color: #59ffd0;
+.extra-body >* {
+    padding: 0.2em 0em;
 }
 
 .extra-body {
