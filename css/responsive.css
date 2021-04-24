@@ -5366,21 +5366,21 @@ font-size: 1.5em;
 }
 
 .hero code {
-    font-size: 1em;
+    font-size: 1.2em;
 }
 
 .hero h1 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-weight: bolder;
 }
 
 .hero h2 {
-    font-size: 1.5em;
+    font-size: 1.8em;
     font-weight: bolder;
 }
 .hero p {
     width: 20em;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
 .contact-btn {
@@ -5390,13 +5390,13 @@ font-size: 1.5em;
     width: 10em; 
     color: white;   
     margin-top: 3em;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
  /* ABOUT */
  .section-about {
     background-color: black;
-    height: 40em;
+    height: 50em;
     padding: 0 1em;
     color: white;
 }
@@ -5407,7 +5407,7 @@ font-size: 1.5em;
 }
 
 .section-about h1 {
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 .section-about code {
@@ -5415,7 +5415,7 @@ font-size: 1.5em;
 }
 
 .section-about p {
-    font-size: 0.8em;
+    font-size: 0.9em
 }
 
 .horizontal-line {
@@ -5481,7 +5481,7 @@ font-size: 1.5em;
         
             .section-technologies p {
                 margin-left: 0.5em;
-                font-size: 0.8em;
+                font-size: 0.9em
             }
 
             .fa-caret-right {
@@ -5496,7 +5496,7 @@ font-size: 1.5em;
 
   .section-skills {
     background-color: black;
-    height: 80em;
+    height: 90em;
     padding: 0 1em;
     color: white;
 }
@@ -5507,7 +5507,7 @@ font-size: 1.5em;
 }
 
 .section-skills h1 {
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 .section-skills code {
@@ -5515,7 +5515,7 @@ font-size: 1.5em;
 }
 
 .section-skills p {
-    font-size: 0.8em;
+    font-size: 0.9em
 }
 
 .skills-horizontal-line {
@@ -5574,7 +5574,7 @@ font-size: 1.5em;
 }
 
 .section-projects h1 {
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 .section-projects code {
@@ -5582,7 +5582,7 @@ font-size: 1.5em;
 }
 
 .section-projects p {
-    font-size: 0.8em;
+    font-size: 0.9em
 }
 
 .projects-horizontal-line {
@@ -5692,7 +5692,7 @@ font-size: 1.5em;
 .project-2-links a,
 .project-3-links a 
 {
-    font-size: 1em;
+    font-size: 1.3em;
     color: white;
 }
 
@@ -5732,7 +5732,7 @@ font-size: 1.5em;
 /* EXTRAS */
 .section-extras {
     background-color: black;
-    height: 120em;
+    height: 140em;
     padding: 0 1em;
     color: white;
 }
@@ -5744,7 +5744,7 @@ font-size: 1.5em;
 }
 
 .section-extras h1 {
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 .extras {
@@ -5777,7 +5777,7 @@ font-size: 1.5em;
 
 .extra-head a {
     color: white;
-    font-size: 0.8em;
+    font-size: 0.9em
 }
 
 .extra-body >* {
@@ -5799,7 +5799,7 @@ font-size: 1.5em;
 }
 
 .extra-body p {
-    font-size: 0.8em;
+    font-size: 0.9em
 }
 
 .extra-footer {
@@ -5831,7 +5831,7 @@ font-size: 1.5em;
 }
 
 .section-pricing h1 {
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 .section-pricing code {
@@ -5839,7 +5839,7 @@ font-size: 1.5em;
 }
 
 .section-pricing p {
-    font-size: 0.8em;
+    font-size: 0.9em
 }
 
 .pricing-horizontal-line {
@@ -5852,8 +5852,9 @@ font-size: 1.5em;
 .price-packages {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 1em;
+    row-gap: 2em;
     margin-top: 2em;
+    padding: 0em 1em;
 }
 
 .package {
@@ -5868,7 +5869,7 @@ font-size: 1.5em;
 }
 
 .package-graphic i {
-    font-size: 2em;
+    font-size: 3em;
 }
 
 .package-title h4 {
@@ -5917,11 +5918,11 @@ font-size: 1.5em;
 }
 
 .section-contact h1 {
-    font-size: 1.5em;
+    font-size: 1.8em;
 }
 
 .section-contact p {
-    font-size: 0.8em;
+    font-size: 0.9em
 }
 
 .contact {
@@ -5940,7 +5941,7 @@ font-size: 1.5em;
     color: #59ffd0;
     border-radius: 0.5em;
     margin-top: 2em;
-    font-size: 0.8em;
+    font-size: 0.9em
 }
 
 /* FOOTER */
@@ -5983,7 +5984,7 @@ footer .details {
 
 footer .details p {
     margin: 0em 0.3em;
-    font-size: 0.8em;
+    font-size: 0.9em
 }
 
 /* SIDEBAR */
@@ -6061,14 +6062,14 @@ footer .details p {
     color: white; 
     border-radius: 0.5em; 
     position: fixed; 
-    bottom: 3em; 
-    right: 4em;
+    bottom: 2em; 
+    right: 2em;
     cursor: pointer;
     box-shadow: 0 0.4em 0.8em 0 rgba(0, 0, 0, 0.2), 0 0.6em 2em 0 rgba(0, 0, 0, 0.19);
   }
   
   .top-button p {
-    font-size: 1.2em
+    font-size: 1.5em
   }
 
 }
