@@ -1,5 +1,6 @@
 const openMenu = document.querySelector('.menu-bar');
 const closeMenu = document.querySelector('.sidebar-close');
+const contactButton = document.querySelector('.button-contact');
 
 openMenu.addEventListener('click', () => {
     document.querySelector(".side-bar").style.width = "20em";
@@ -7,4 +8,14 @@ openMenu.addEventListener('click', () => {
 
 closeMenu.addEventListener('click', () => {
     document.querySelector(".side-bar").style.width = "0em";
+});
+
+document.addEventListener('click', (e) => {
+    if (e.target.className === 'sidebar-option') {
+        document.querySelector(".side-bar").style.width = "0em";
+    }
+});
+
+contactButton.addEventListener('click', () => {
+    window.open('mailto:hey@akhilgoyal.com');
 });

@@ -338,19 +338,20 @@
     margin-top: 0.5em;
 }
 
-.project-1-links i,
-.project-2-links i,
-.project-3-links i 
+.project-1-links a,
+.project-2-links a,
+.project-3-links a 
 {
     font-size: 1.5em;
+    color: #fff;
 }
 
 .project-1-technologies code:not(:last-child),
 .project-2-technologies code:not(:last-child),
 .project-3-technologies code:not(:last-child),
-.project-1-links i:not(:last-child),
-.project-2-links i:not(:last-child),
-.project-3-links i:not(:last-child)
+.project-1-links a:not(:last-child),
+.project-2-links a:not(:last-child),
+.project-3-links a:not(:last-child)
 { 
     margin-right: 1em;
 }
@@ -971,19 +972,20 @@ footer .details p {
     margin-top: 0.3em;
 }
 
-.project-1-links i,
-.project-2-links i,
-.project-3-links i 
+.project-1-links a,
+.project-2-links a,
+.project-3-links a 
 {
     font-size: 1.3em;
+    color: white;
 }
 
 .project-1-technologies code:not(:last-child),
 .project-2-technologies code:not(:last-child),
 .project-3-technologies code:not(:last-child),
-.project-1-links i:not(:last-child),
-.project-2-links i:not(:last-child),
-.project-3-links i:not(:last-child)
+.project-1-links a:not(:last-child),
+.project-2-links a:not(:last-child),
+.project-3-links a:not(:last-child)
 { 
     margin-right: 1em;
 }
@@ -1607,19 +1609,20 @@ footer .details p {
     margin-top: 0.3em;
 }
 
-.project-1-links i,
-.project-2-links i,
-.project-3-links i 
+.project-1-links a,
+.project-2-links a,
+.project-3-links a 
 {
     font-size: 1.3em;
+    color: white;
 }
 
 .project-1-technologies code:not(:last-child),
 .project-2-technologies code:not(:last-child),
 .project-3-technologies code:not(:last-child),
-.project-1-links i:not(:last-child),
-.project-2-links i:not(:last-child),
-.project-3-links i:not(:last-child)
+.project-1-links a:not(:last-child),
+.project-2-links a:not(:last-child),
+.project-3-links a:not(:last-child)
 { 
     margin-right: 1em;
 }
@@ -2251,19 +2254,20 @@ justify-content: space-between;
     margin-top: 0.3em;
 }
 
-.project-1-links i,
-.project-2-links i,
-.project-3-links i 
+.project-1-links a,
+.project-2-links a,
+.project-3-links a 
 {
     font-size: 1.3em;
+    color: white;
 }
 
 .project-1-technologies code:not(:last-child),
 .project-2-technologies code:not(:last-child),
 .project-3-technologies code:not(:last-child),
-.project-1-links i:not(:last-child),
-.project-2-links i:not(:last-child),
-.project-3-links i:not(:last-child)
+.project-1-links a:not(:last-child),
+.project-2-links a:not(:last-child),
+.project-3-links a:not(:last-child)
 { 
     margin-right: 1em;
 }
@@ -2934,19 +2938,20 @@ font-size: 2em;
     margin-top: 0.3em;
 }
 
-.project-1-links i,
-.project-2-links i,
-.project-3-links i 
+.project-1-links a,
+.project-2-links a,
+.project-3-links a
 {
     font-size: 1.3em;
+    color: white;
 }
 
 .project-1-technologies code:not(:last-child),
 .project-2-technologies code:not(:last-child),
 .project-3-technologies code:not(:last-child),
-.project-1-links i:not(:last-child),
-.project-2-links i:not(:last-child),
-.project-3-links i:not(:last-child)
+.project-1-links a:not(:last-child),
+.project-2-links a:not(:last-child),
+.project-3-links a:not(:last-child)
 { 
     margin-right: 1em;
 }
@@ -3706,19 +3711,20 @@ font-size: 1.5em;
     margin-top: 0.3em;
 }
 
-.project-1-links i,
-.project-2-links i,
-.project-3-links i 
+.project-1-links a,
+.project-2-links a,
+.project-3-links a 
 {
     font-size: 1em;
+    color: white;
 }
 
 .project-1-technologies code:not(:last-child),
 .project-2-technologies code:not(:last-child),
 .project-3-technologies code:not(:last-child),
-.project-1-links i:not(:last-child),
-.project-2-links i:not(:last-child),
-.project-3-links i:not(:last-child)
+.project-1-links a:not(:last-child),
+.project-2-links a:not(:last-child),
+.project-3-links a:not(:last-child)
 { 
     margin-right: 1em;
 }
@@ -4465,19 +4471,20 @@ footer .details p {
     margin-top: 0.3em;
 }
 
-.project-1-links i,
-.project-2-links i,
-.project-3-links i 
+.project-1-links a,
+.project-2-links a,
+.project-3-links a 
 {
     font-size: 0.8em;
+    color: white;
 }
 
 .project-1-technologies code:not(:last-child),
 .project-2-technologies code:not(:last-child),
 .project-3-technologies code:not(:last-child),
-.project-1-links i:not(:last-child),
-.project-2-links i:not(:last-child),
-.project-3-links i:not(:last-child)
+.project-1-links a:not(:last-child),
+.project-2-links a:not(:last-child),
+.project-3-links a:not(:last-child)
 { 
     margin-right: 1em;
 }

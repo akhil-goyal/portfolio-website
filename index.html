@@ -20,38 +20,37 @@
     <aside>
         <div class="side-bar">
 
-            <!-- <i class="sidebar-close fas fa-times"></i> -->
             <div class="sidebar-header">
                 <i class="sidebar-close fas fa-times"></i>
             </div>
             <div class="sidebar-body">
                 <div class="sidebar-item">
                     <code>1.</code>
-                    <a href="#">About</a>
+                    <a class="sidebar-option" href="#section-about">About</a>
                 </div>
 
                 <div class="sidebar-item">
                     <code>2.</code>
-                    <a href="#">Skills</a>
+                    <a class="sidebar-option" href="#section-skills">Skills</a>
                 </div>
 
                 <div class="sidebar-item">
                     <code>3.</code>
-                    <a href="#">Projects</a>
+                    <a class="sidebar-option" href="#section-projects">Projects</a>
                 </div>
 
                 <div class="sidebar-item">
                     <code>4.</code>
-                    <a href="#">Pricing</a>
+                    <a class="sidebar-option" href="#section-pricing">Pricing</a>
                 </div>
 
                 <div class="sidebar-item">
                     <code>5.</code>
-                    <a href="#">Contact</a>
+                    <a class="sidebar-option" href="#section-contact">Contact</a>
                 </div>
 
                 <div class="sidebar-resume sidebar-item">
-                    <a href="#">Resume</a>
+                    <a class="sidebar-option" href="#">Resume</a>
                 </div>
             </div>
         </div>
@@ -74,11 +73,11 @@
                     <img class="site-logo" src="./resources/img/logo.png" alt="Site logo" />
                     <nav>
                         <ul>
-                            <li><a href="index.html">About</a></li>
-                            <li><a href="features.html">Skills</a></li>
-                            <li><a href="docs.html">Projects</a></li>
-                            <li><a href="docs.html">Pricing</a></li>
-                            <li><a href="docs.html">Contact</a></li>
+                            <li><a href="#section-about"><code>1. </code>About</a></li>
+                            <li><a href="#section-skills"><code>2. </code>Skills</a></li>
+                            <li><a href="#section-projects"><code>3. </code>Projects</a></li>
+                            <li><a href="#section-pricing"><code>4. </code>Pricing</a></li>
+                            <li><a href="#section-contact"><code>5. </code>Contact</a></li>
                             <li>
                                 <a class="resume-btn" href="#">Resume</a>
                             </li>
@@ -101,12 +100,12 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In officiis sed alias reprehenderit facere
                     explicabo quam. Asperiores inventore aliquam, numquam repudiandae iure iste obcaecati. Alias ratione
                     tenetur veritatis consequatur.</p>
-                <button class="contact-btn">Get In Touch</button>
+                <a href="#section-contact"><button class="contact-btn">Get In Touch</button></a>
             </div>
 
         </section>
 
-        <section class="section-about">
+        <section id="section-about" class="section-about">
 
             <div class="about-title">
                 <h1><code>1. </code>About me</h1>
@@ -175,7 +174,7 @@
 
         </section>
 
-        <section class="section-skills">
+        <section id="section-skills" class="section-skills">
 
             <div class="skills-title">
                 <h1><code>2. </code>My Skills</h1>
@@ -238,7 +237,7 @@
 
         </section>
 
-        <section class="section-projects">
+        <section id="section-projects" class="section-projects">
 
             <div class="projects-title">
                 <h1><code>3. </code>Projects</h1>
@@ -271,8 +270,10 @@
                             <code>Web Audio API</code>
                         </div>
                         <div class="project-1-links">
-                            <i class="fab fa-github"></i>
-                            <i class="fas fa-external-link-alt"></i>
+                            <a target="_blank" href="https://github.com/akhil-goyal/audio-project-boombox"><i
+                                    class="fab fa-github"></i></a>
+                            <a target="_blank" href="https://akhil-goyal.github.io/audio-project-boombox/"><i
+                                    class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
 
@@ -294,8 +295,10 @@
                             <code>Webpack</code>
                         </div>
                         <div class="project-2-links">
-                            <i class="fab fa-github"></i>
-                            <i class="fas fa-external-link-alt"></i>
+                            <a target="_blank" href="https://github.com/akhil-goyal/react-ecommerce-project"><i
+                                    class="fab fa-github"></i></a>
+                            <a target="_blank" href="https://lucid-torvalds-f1e00e.netlify.app/#/"><i
+                                    class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                     <img src="./resources/img/spruce.png" alt="Project Spruce Image">
@@ -317,8 +320,8 @@
                             <code>Netlify CMS</code>
                         </div>
                         <div class="project-3-links">
-                            <i class="fab fa-github"></i>
-                            <i class="fas fa-external-link-alt"></i>
+                            <a target="_blank" href="#"><i class="fab fa-github"></i></a>
+                            <a target="_blank" href="https://topcoded.com/"><i class="fas fa-external-link-alt"></i></a>
                         </div>
                     </div>
                 </div>
@@ -337,10 +340,13 @@
                 <div class="extra">
                     <div class="extra-head">
                         <i class="far fa-image"></i>
-                        <i class="fas fa-external-link-alt"></i>
+                        <a target="_blank"
+                            href="https://drive.google.com/file/d/16kKu9jva4Bkp8c8GrUptOVcnuK-NfDQ0/view?usp=sharing">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
                     </div>
                     <div class="extra-body">
-                        <h2>Project Title</h2>
+                        <h2>Moodboard</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, aliquid.</p>
                     </div>
                     <div class="extra-footer">
@@ -353,10 +359,13 @@
                 <div class="extra">
                     <div class="extra-head">
                         <i class="fas fa-video"></i>
-                        <i class="fas fa-external-link-alt"></i>
+                        <a target="_blank"
+                            href="https://drive.google.com/file/d/1v5zhHHEVkMMo6-WKzNR6t6R9WZIqLvGD/view?usp=sharing">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
                     </div>
                     <div class="extra-body">
-                        <h2>Project Title</h2>
+                        <h2>Logo Reveal</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, aliquid.</p>
                     </div>
                     <div class="extra-footer">
@@ -369,10 +378,13 @@
                 <div class="extra">
                     <div class="extra-head">
                         <i class="far fa-image"></i>
-                        <i class="fas fa-external-link-alt"></i>
+                        <a target="_blank"
+                            href="https://drive.google.com/file/d/1LM6iiMCtpzrval7Dnekmh_Gv-wPcM4qp/view?usp=sharing">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
                     </div>
                     <div class="extra-body">
-                        <h2>Project Title</h2>
+                        <h2>User Persona</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, aliquid.</p>
                     </div>
                     <div class="extra-footer">
@@ -385,10 +397,13 @@
                 <div class="extra">
                     <div class="extra-head">
                         <i class="far fa-image"></i>
-                        <i class="fas fa-external-link-alt"></i>
+                        <a target="_blank"
+                            href="https://drive.google.com/file/d/162kHTL2SANYfiDN7Gb3I04SVTAWslNRS/view?usp=sharing">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
                     </div>
                     <div class="extra-body">
-                        <h2>Project Title</h2>
+                        <h2>UI Kit</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, aliquid.</p>
                     </div>
                     <div class="extra-footer">
@@ -401,10 +416,13 @@
                 <div class="extra">
                     <div class="extra-head">
                         <i class="far fa-image"></i>
-                        <i class="fas fa-external-link-alt"></i>
+                        <a target="_blank"
+                            href="https://drive.google.com/file/d/1SaVuPf-DTDFg2fweZxjB7M7bYjtjpAqM/view?usp=sharing">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
                     </div>
                     <div class="extra-body">
-                        <h2>Project Title</h2>
+                        <h2>Preloader</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, aliquid.</p>
                     </div>
                     <div class="extra-footer">
@@ -417,10 +435,13 @@
                 <div class="extra">
                     <div class="extra-head">
                         <i class="far fa-image"></i>
-                        <i class="fas fa-external-link-alt"></i>
+                        <a target="_blank"
+                            href="https://drive.google.com/file/d/1w8OH6gVwhLKzqJfmIynOf89Dkwnhmtmb/view?usp=sharing">
+                            <i class="fas fa-external-link-alt"></i>
+                        </a>
                     </div>
                     <div class="extra-body">
-                        <h2>Project Title</h2>
+                        <h2>Kinetic Typography</h2>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, aliquid.</p>
                     </div>
                     <div class="extra-footer">
@@ -434,7 +455,7 @@
 
         </section>
 
-        <section class="section-pricing">
+        <section id="section-pricing" class="section-pricing">
 
             <div class="pricing-title">
                 <h1><code>4. </code>Pricing</h1>
@@ -533,7 +554,7 @@
 
         </section>
 
-        <section class="section-contact">
+        <section id="section-contact" class="section-contact">
 
             <div class="contact-title">
                 <h1><code>5. </code>Let's Talk</h1>
@@ -543,7 +564,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora debitis numquam omnis nobis velit
                     maiores eos eligendi, enim tenetur dolorem eius molestiae, laborum nesciunt nostrum, necessitatibus
                     suscipit sequi facere perferendis.</p>
-                <a class="button-contact" href="#"><code>Say Hello</code></a>
+                <a class="button-contact"><code>Say Hello</code></a>
             </div>
 
         </section>
@@ -552,12 +573,13 @@
 
     <footer>
         <div class="social">
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-            <a href="#"><i class="fab fa-medium"></i></a>
-            <a href="#"><i class="fab fa-github"></i></a>
+            <a target="_blank" href="https://www.facebook.com/akhil.goyal.73997"><i class="fab fa-facebook"></i></a>
+            <a target="_blank" href="https://www.instagram.com/akhilgoyal_/"><i class="fab fa-instagram"></i></a>
+            <a target="_blank" href="https://twitter.com/akhilgoyal_"><i class="fab fa-twitter"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/akhil-goyal-780a5b136/"><i
+                    class="fab fa-linkedin"></i></a>
+            <a target="_blank" href="https://medium.com/@akhilgoyal_"><i class="fab fa-medium"></i></a>
+            <a target="_blank" href="https://github.com/akhil-goyal"><i class="fab fa-github"></i></a>
         </div>
         <div class="details">
             <div class="detail">
