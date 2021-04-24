@@ -42,6 +42,12 @@
     background-color: transparent;
     border: 1px solid #fff;
     border-radius: 0.5em;
+    transition: all .1s ease-in-out;
+}
+
+.resume-btn:hover{
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .mobile-header {
@@ -346,6 +352,15 @@ margin-top: 1em;
 {
   font-size: 1em;
   color: white;
+  transition: all .1s ease-in-out;
+}
+
+.project-1-links i:hover,
+.project-2-links i:hover,
+.project-3-links i:hover
+{
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .project-1-technologies code:not(:last-child),
@@ -424,8 +439,13 @@ margin-top: 1em;
 .extra-head a {
   color: white;
   font-size: 0.8em;
+  transition: all .1s ease-in-out;
 }
 
+.extra-head a:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
 
 .extra-body {
   display: flex;
@@ -568,6 +588,12 @@ margin-top: 1em;
   color: #59ffd0;
   border-radius: 0.5em;
   margin-top: 2em;
+  transition: all .1s ease-in-out;
+}
+
+.button-contact:hover{
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 /* FOOTER */
@@ -594,6 +620,11 @@ footer .social > a {
   margin: 0em 1em;
   font-size: 1.2em;
   color: #59ffd0;
+  transition: transform 0.2s ease-in;
+}
+
+footer .social > a:hover{
+  transform: translateY(-5px);
 }
 
 footer .details {
