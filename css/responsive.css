@@ -6950,26 +6950,6 @@ footer .details p {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @keyframes Gradient {
     0% {
         background-position: 0% 50%;
@@ -6980,9 +6960,9 @@ footer .details p {
     100% {
         background-position: 0% 50%;
     }
-    }
+}
 
-    @-webkit-keyframes Gradient {
+@-webkit-keyframes Gradient {
     0% {
         background-position: 0% 50%;
     }
