@@ -103,7 +103,7 @@
     /* ABOUT */
   .section-about {
       background-color: black;
-      height: 45em;
+      /* height: 45em; */
       padding: 0 30em;
       color: white;
   }
@@ -181,9 +181,10 @@
 
 .section-skills {
     background-color: black;
-    height: 60em;
+    /* height: 60em; */
     padding: 0 30em;
     color: white;
+    margin-top: 25em;
 }
 
 .skills-title {
@@ -242,9 +243,10 @@
 
 .section-projects {
     background-color: black;
-    height: 140em;
+    /* height: 140em; */
     padding: 0 30em;
     color: white;
+    margin-top: 25em;
 }
 
 .projects-title {
@@ -395,9 +397,10 @@
 /* EXTRAS */
 .section-extras {
     background-color: black;
-    height: 90em;
+    /* height: 90em; */
     padding: 0 30em;
     color: white;
+    margin-top: 25em;
 }
 
 .extras-title {
@@ -481,9 +484,10 @@
 
 .section-pricing {
     background-color: black;
-    height: 100em;
+    /* height: 100em; */
     padding: 0 30em;
     color: white;
+    margin-top: 25em;
 }
 
 .pricing-title {
@@ -562,9 +566,10 @@
 
 .section-contact {
     background-color: black;
-    height: 30em;
+    /* height: 30em; */
     padding: 0 30em;
     color: white;
+    margin-top: 25em;
 }
 
 .contact-title {
@@ -608,10 +613,15 @@
 
 footer {
     background-color: black;
-    height: 12em;
+    /* height: 12em; */
     padding: 0em 30em;
     color: white;
     display: grid;
+    margin-top: 25em;
+}
+
+footer > * {
+    padding: 2em 0em;
 }
 
 footer i {
@@ -773,7 +783,7 @@ footer .details p {
     /* ABOUT */
   .section-about {
       background-color: black;
-      height: 40em;
+      /* height: 40em; */
       padding: 0 20em;
       color: white;
   }
@@ -846,9 +856,10 @@ footer .details p {
 
   .section-skills {
     background-color: black;
-    height: 45em;
+    /* height: 45em; */
     padding: 0 20em;
     color: white;
+    margin-top: 20em;
 }
 
 .skills-title {
@@ -907,9 +918,10 @@ footer .details p {
 
 .section-projects {
     background-color: black;
-    height: 100em;
+    /* height: 100em; */
     padding: 0 20em;
     color: white;
+    margin-top: 20em;
 }
 
 .projects-title {
@@ -1056,9 +1068,10 @@ footer .details p {
 /* EXTRAS */
 .section-extras {
     background-color: black;
-    height: 70em;
+    /* height: 70em; */
     padding: 0 20em;
     color: white;
+    margin-top: 20em;
 }
 
 .extras-title {
@@ -1130,9 +1143,10 @@ footer .details p {
 
 .section-pricing {
     background-color: black;
-    height: 80em;
+    /* height: 80em; */
     padding: 0 20em;
     color: white;
+    margin-top: 20em;
 }
 
 .pricing-title {
@@ -1207,9 +1221,10 @@ footer .details p {
 
 .section-contact {
     background-color: black;
-    height: 30em;
+    /* height: 30em; */
     padding: 0 20em;
     color: white;
+    margin-top: 20em;
 }
 
 .contact-title {
@@ -1248,10 +1263,15 @@ footer .details p {
 
 footer {
     background-color: black;
-    height: 10em;
+    /* height: 10em; */
     padding: 0em 20em;
     color: white;
     display: grid;
+    margin-top: 20em;
+}
+
+footer > * {
+    padding: 1.5em 0em;
 }
 
 footer i {
@@ -1408,7 +1428,7 @@ footer .details p {
     /* ABOUT */
   .section-about {
     background-color: black;
-    height: 40em;
+    /* height: 40em; */
     padding: 0 12em;
     color: white;
 }
@@ -1481,9 +1501,10 @@ footer .details p {
 
 .section-skills {
   background-color: black;
-  height: 60em;
+  /* height: 60em; */
   padding: 0 12em;
   color: white;
+  margin-top: 18em;
 }
 
 .skills-title {
@@ -1543,9 +1564,10 @@ footer .details p {
 
 .section-projects {
   background-color: black;
-  height: 100em;
+  /* height: 100em; */
   padding: 0 12em;
   color: white;
+  margin-top: 18em;
 }
 
 .projects-title {
@@ -1692,9 +1714,10 @@ footer .details p {
 /* EXTRAS */
 .section-extras {
   background-color: black;
-  height: 70em;
+  /* height: 70em; */
   padding: 0 12em;
   color: white;
+  margin-top: 18em;
 }
 
 .extras-title {
@@ -1766,9 +1789,10 @@ footer .details p {
 
 .section-pricing {
   background-color: black;
-  height: 80em;
+  /* height: 80em; */
   padding: 0 12em;
   color: white;
+  margin-top: 18em;
 }
 
 .pricing-title {
@@ -1843,9 +1867,10 @@ footer .details p {
 
 .section-contact {
   background-color: black;
-  height: 30em;
+  /* height: 30em; */
   padding: 0 12em;
   color: white;
+  margin-top: 18em;
 }
 
 .contact-title {
@@ -1884,10 +1909,15 @@ footer .details p {
 
 footer {
   background-color: black;
-  height: 10em;
+  /* height: 10em; */
   padding: 0em 12em;
   color: white;
   display: grid;
+  margin-top: 18em;
+}
+
+footer > * {
+    padding: 1.5em 0em;
 }
 
 footer i {
@@ -2044,7 +2074,7 @@ footer .details p {
     /* ABOUT */
   .section-about {
     background-color: black;
-    height: 40em;
+    /* height: 40em; */
     padding: 0 12em;
     color: white;
 }
@@ -2117,9 +2147,10 @@ footer .details p {
 
 .section-skills {
   background-color: black;
-  height: 60em;
+  /* height: 60em; */
   padding: 0 12em;
   color: white;
+  margin-top: 16em;
 }
 
 .skills-title {
@@ -2179,9 +2210,10 @@ footer .details p {
 
 .section-projects {
   background-color: black;
-  height: 100em;
+  /* height: 100em; */
   padding: 0 12em;
   color: white;
+  margin-top: 16em;
 }
 
 .projects-title {
@@ -2328,9 +2360,10 @@ footer .details p {
 /* EXTRAS */
 .section-extras {
   background-color: black;
-  height: 70em;
+  /* height: 70em; */
   padding: 0 12em;
   color: white;
+  margin-top: 16em;
 }
 
 .extras-title {
@@ -2402,9 +2435,10 @@ footer .details p {
 
 .section-pricing {
   background-color: black;
-  height: 80em;
+  /* height: 80em; */
   padding: 0 12em;
   color: white;
+  margin-top: 16em;
 }
 
 .pricing-title {
@@ -2479,9 +2513,10 @@ footer .details p {
 
 .section-contact {
   background-color: black;
-  height: 30em;
-  padding: 0 12em;
+  /* height: 30em; */
+  padding: 0 5em;
   color: white;
+  margin-top: 16em;
 }
 
 .contact-title {
@@ -2520,10 +2555,15 @@ footer .details p {
 
 footer {
   background-color: black;
-  height: 10em;
+  /* height: 10em; */
   padding: 0em 12em;
   color: white;
   display: grid;
+  margin-top: 16em;
+}
+
+footer > * {
+    padding: 1.5em 0em;
 }
 
 footer i {
@@ -2678,7 +2718,7 @@ footer .details p {
     /* ABOUT */
   .section-about {
     background-color: black;
-    height: 40em;
+    /* height: 40em; */
     padding: 0 15em;
     color: white;
 }
@@ -2751,9 +2791,10 @@ footer .details p {
 
   .section-skills {
     background-color: black;
-    height: 35em;
+    /* height: 35em; */
     padding: 0 15em;
     color: white;
+    margin-top: 16em;
 }
 
 .skills-title {
@@ -2778,7 +2819,7 @@ footer .details p {
 
 .skills {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     row-gap: 3em;
     column-gap: 1em;
     margin-top: 2em;
@@ -2812,9 +2853,10 @@ footer .details p {
 
 .section-projects {
     background-color: black;
-    height: 100em;
+    /* height: 100em; */
     padding: 0 15em;
     color: white;
+    margin-top: 16em;
 }
 
 .projects-title {
@@ -2967,9 +3009,10 @@ footer .details p {
 /* EXTRAS */
 .section-extras {
     background-color: black;
-    height: 100em;
+    /* height: 100em; */
     padding: 0 20em;
     color: white;
+    margin-top: 16em;
 }
 
 .extras-title {
@@ -2984,7 +3027,7 @@ footer .details p {
 
 .extras {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1em;
     margin-top: 3em;
     justify-content: center;
@@ -3042,9 +3085,10 @@ footer .details p {
 
 .section-pricing {
     background-color: black;
-    height: 100em;
+    /* height: 100em; */
     padding: 0 15em;
     color: white;
+    margin-top: 16em;
 }
 
 .pricing-title {
@@ -3119,9 +3163,10 @@ footer .details p {
 
 .section-contact {
     background-color: black;
-    height: 70em;
+    /* height: 70em; */
     padding: 0 15em;
     color: white;
+    margin-top: 16em;
 }
 
 .contact-title {
@@ -3160,10 +3205,15 @@ footer .details p {
 
 footer {
     background-color: black;
-    height: 10em;
+    /* height: 10em; */
     padding: 0em 15em;
     color: white;
     display: grid;
+    margin-top: 16em;
+}
+
+footer > * {
+    padding: 1.3em 0em;
 }
 
 footer i {
@@ -3318,7 +3368,7 @@ footer .details p {
         /* ABOUT */
   .section-about {
     background-color: black;
-    height: 40em;
+    /* height: 40em; */
     padding: 0 10em;
     color: white;
 }
@@ -3392,9 +3442,10 @@ footer .details p {
 
   .section-skills {
     background-color: black;
-    height: 50em;
+    /* height: 50em; */
     padding: 0 10em;
     color: white;
+    margin-top: 14em;
 }
 
 .skills-title {
@@ -3453,9 +3504,10 @@ footer .details p {
 
 .section-projects {
     background-color: black;
-    height: 100em;
+    /* height: 100em; */
     padding: 0 10em;
     color: white;
+    margin-top: 14em;
 }
 
 .projects-title {
@@ -3609,9 +3661,10 @@ footer .details p {
 /* EXTRAS */
 .section-extras {
     background-color: black;
-    height: 100em;
+    /* height: 100em; */
     padding: 0 12em;
     color: white;
+    margin-top: 14em;
 }
 
 .extras-title {
@@ -3689,9 +3742,10 @@ footer .details p {
 
 .section-pricing {
     background-color: black;
-    height: 150em;
+    /* height: 150em; */
     padding: 0 10em;
     color: white;
+    margin-top: 14em;
 }
 
 .pricing-title {
@@ -3767,9 +3821,10 @@ footer .details p {
 
 .section-contact {
     background-color: black;
-    height: 70em;
+    /* height: 70em; */
     padding: 0 12em;
     color: white;
+    margin-top: 14em;
 }
 
 .contact-title {
@@ -3808,10 +3863,15 @@ footer .details p {
 
 footer {
     background-color: black;
-    height: 10em;
+    /* height: 10em; */
     padding: 0em 10em;
     color: white;
     display: grid;
+    margin-top: 14em;
+}
+
+footer > * {
+    padding: 1.3em 0em;
 }
 
 footer i {
@@ -3876,650 +3936,662 @@ footer .details p {
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
 
-/* HEADER */
-.container {
-max-width: 1000px;
-margin: 0 auto;
-overflow: auto;
-padding: 0 40px;
-}
-
-.navbar {
-background-color: black;
-color: #fff;
-height: 7em;
-}
-
-.navbar ul {
-display: flex;
-}
-
-.navbar a {
-color: #fff;
-padding: 10px;
-margin: 0 5px;
-font-size: 1em;
-}
-
-.navbar a:hover {
-border-bottom: 1px #fff solid;
-}
-
-.navbar .flex {
-justify-content: space-between;
-}
-
-.site-logo {
-    height: 5em;
-    width: 5em;
-}
-
-.resume-btn {
-    height: 4em;
-    width: 7em;
-    background-color: transparent;
-    border: 1px solid #fff;
-    border-radius: 0.5em;
-}
-
-.mobile-header {
-    display: none;
-}
-
-/* HERO */
-.section-hero {
-    background-color: black;
-    height: 91vh;
-    padding: 0em 10em;
-    display: flex;
-    align-items: center;
-}
-
-.hero {
-    color:#fff;
-}
-
-.hero code {
-    font-size: 1.5em;
-}
-
-.hero h1 {
-    font-size: 3em;
-    font-weight: bolder;
-}
-
-.hero h2 {
-    font-size: 3em;
-    font-weight: bolder;
-}
-.hero p {
-    width: 30em;
-}
-
-.contact-btn {
-    border: 1px solid white;
-    border-radius: 0.5em;
-    height: 3em;
-    width: 10em; 
-    color: white;   
-    margin-top: 3em;
-}
-
-        /* ABOUT */
-        .section-about {
-            background-color: black;
-            height: 40em;
-            padding: 0 10em;
-            color: white;
+    /* HEADER */
+    .container {
+        max-width: 1000px;
+        margin: 0 auto;
+        overflow: auto;
+        padding: 0 40px;
+    }
+    
+    .navbar {
+        background-color: black;
+        color: #fff;
+        height: 7em;
         }
         
-        .about-title {
+        .navbar ul {
+        display: flex;
+        }
+        
+        .navbar a {
+        color: #fff;
+        padding: 10px;
+        margin: 0 5px;
+        font-size: 1em;
+        }
+        
+        .navbar a:hover {
+        border-bottom: 1px #fff solid;
+        }
+        
+        .navbar .flex {
+        justify-content: space-between;
+        }
+    
+        .site-logo {
+            height: 5em;
+            width: 5em;
+        }
+    
+        .resume-btn {
+            height: 4em;
+            width: 7em;
+            background-color: transparent;
+            border: 1px solid #fff;
+            border-radius: 0.5em;
+        }
+    
+        .mobile-header {
+            display: none;
+        }
+    
+        /* HERO */
+        .section-hero {
+            background-color: black;
+            height: 91vh;
+            padding: 0em 10em;
             display: flex;
             align-items: center;
         }
-        
-        .section-about h1 {
-            font-size: 2.5em;
+    
+        .hero {
+            color:#fff;
         }
-        
-        .section-about code {
-            color: #59ffd0;
+    
+        .hero code {
+            font-size: 1.5em;
         }
-        
-        .horizontal-line {
-            height: 0.1em;
-            width: 7em;
-            background-color: white;
-            margin-left: 1.5em;
+    
+        .hero h1 {
+            font-size: 3em;
+            font-weight: bolder;
         }
-        
-        .about{
-          display: grid;
-          grid-template-columns: repeat(2, 1fr);
-          align-items: center;
-          margin-top: 2em;
+    
+        .hero h2 {
+            font-size: 3em;
+            font-weight: bolder;
         }
-        
-        .about-info p:nth-child(2){
-          margin-top: 1em;
+        .hero p {
+            width: 30em;
         }
-        
-        .about-image {
-            padding-left: 5em;
-        }
-        
-        .user-image {
-            height: 10.5em;
-            width: 12.8em;
-            aspect-ratio: 1/1;
-            object-fit: contain;
+    
+        .contact-btn {
+            border: 1px solid white;
             border-radius: 0.5em;
+            height: 3em;
+            width: 10em; 
+            color: white;   
+            margin-top: 3em;
         }
-
-          /* TECHNOLOGIES */
-
-  .section-technologies {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    
+            /* ABOUT */
+      .section-about {
+        background-color: black;
+        /* height: 40em; */
+        padding: 0 10em;
+        color: white;
     }
-
-    .technology {
+    
+    .about-title {
         display: flex;
-        align-items: baseline;
-        justify-content: start;
-        margin-left: 0.5em;
+        align-items: center;
     }
-
-    .section-technologies p {
-        margin-left: 0.5em;
+    
+    .section-about h1 {
+        font-size: 2.5em;
     }
-
-    .fa-caret-right {
+    
+    .section-about code {
         color: #59ffd0;
+    }
+    
+    .horizontal-line {
+        height: 0.1em;
+        width: 7em;
+        background-color: white;
+        margin-left: 1.5em;
+    }
+    
+    .about{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+      margin-top: 2em;
+    }
+    
+    .about-info p:nth-child(2){
+      margin-top: 1em;
+    }
+    
+    .about-image {
+        padding-left: 5em;
+    }
+    
+    .user-image {
+        height: 10.5em;
+        width: 12.8em;
+        aspect-ratio: 1/1;
+        object-fit: contain;
+        border-radius: 0.5em;
+    }
+    
+      /* TECHNOLOGIES */
+    
+      .section-technologies {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        }
+    
+        .technology {
+            display: flex;
+            align-items: baseline;
+            justify-content: start;
+            margin-left: 0.5em;
+        }
+    
+        .section-technologies p {
+            margin-left: 0.5em;
+        }
+    
+        .fa-caret-right {
+            color: #59ffd0;
+          }
+    
+          /* SKILLS */
+    
+      .section-skills {
+        background-color: black;
+        /* height: 50em; */
+        padding: 0 10em;
+        color: white;
+        margin-top: 14em;
+    }
+    
+    .skills-title {
+        display: flex;
+        align-items: center;
+    }
+    
+    .section-skills h1 {
+        font-size: 2.5em;
+    }
+    
+    .section-skills code {
+        color: #59ffd0;
+    }
+    
+    .skills-horizontal-line {
+        height: 0.1em;
+        width: 7em;
+        background-color: white;
+        margin-left: 1.5em;
+    }
+    
+    .skills {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 3em;
+        column-gap: 1em;
+        margin-top: 2em;
+    }
+    
+    .skill {
+        width: 15em;
+    }
+    
+    .skill p {
+        margin-top: 0.5em;
+    }
+    
+    .skill-title {
+        display: flex;
+        align-items: center;
+        justify-content: start;
+    }
+    
+    .skill-graphic {
+        font-size: 1.2em;
+        color: #59ffd0;
+    }
+    
+    .skill-title h4 {
+        margin-left: 0.5em;
+        font-size: 1.2em;
+    }
+    
+    /* PROJECTS */
+    
+    .section-projects {
+        background-color: black;
+        /* height: 100em; */
+        padding: 0 10em;
+        color: white;
+        margin-top: 14em;
+    }
+    
+    .projects-title {
+        display: flex;
+        align-items: center;
+    }
+    
+    .section-projects h1 {
+        font-size: 2.5em;
+    }
+    
+    .section-projects code {
+        color: #59ffd0;
+    }
+    
+    .projects-horizontal-line {
+        height: 0.1em;
+        width: 7em;
+        background-color: white;
+        margin-left: 1.5em;
+    }
+    
+    .project-1,
+    .project-2,
+    .project-3
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-content: center;
+        column-gap: 1em;
+    }
+    
+    .project-1 img,
+    .project-2 img, 
+    .project-3 img 
+    {
+        border-radius: 0.5em;
+    }
+    
+    .project-1-info,
+    .project-3-info
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        text-align: end;
+    }
+    
+    .project-1-info code,
+    .project-2-info code,
+    .project-3-info code
+    {
+        margin-bottom: 0.3em;
+    }
+    
+    .project-1-info h2,
+    .project-2-info h2,
+    .project-3-info h2
+    {
+        font-size: 1.2em;
+        font-weight: bolder;
+    }
+    
+    .project-1-info code:nth-child(1),
+    .project-2-info code:nth-child(1),
+    .project-3-info code:nth-child(1)
+    {
+        font-size: 0.9em;
+    }
+    
+    .project-1-description,
+    .project-2-description,
+    .project-3-description
+    {
+        background-color: rgb(75, 75, 75);
+        padding: 0.3em 1.5em;
+        border-radius: 0.5em;
+        margin: 0.5em 0em;
+    }
+    
+    .project-1-description p,
+    .project-2-description p,
+    .project-3-description p
+    {
+        font-size: 0.8em;
+    }
+    
+    .project-1-technologies,
+    .project-2-technologies,
+    .project-3-technologies  
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .project-1-technologies code,
+    .project-2-technologies code,
+    .project-3-technologies code
+    {
+        color: rgb(197, 197, 197);
+        font-size: 0.8em;
+    }
+    
+    .project-1-links,
+    .project-2-links,
+    .project-3-links
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 0.3em;
+    }
+    
+    .project-1-links a,
+    .project-2-links a,
+    .project-3-links a 
+    {
+        font-size: 1.3em;
+        color: white;
+    }
+    
+    .project-1-technologies code:not(:last-child),
+    .project-2-technologies code:not(:last-child),
+    .project-3-technologies code:not(:last-child),
+    .project-1-links a:not(:last-child),
+    .project-2-links a:not(:last-child),
+    .project-3-links a:not(:last-child)
+    { 
+        margin-right: 1em;
+    }
+    
+    .project-1 {
+        margin-top: 4em;
+    }
+    
+    .project-2,
+    .project-3
+    {
+        margin-top: 7em;
+    }
+    
+    .project-2-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: start;
+    }
+    
+    /* EXTRAS */
+    .section-extras {
+        background-color: black;
+        /* height: 100em; */
+        padding: 0 12em;
+        color: white;
+        margin-top: 14em;
+    }
+    
+    .extras-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .section-extras h1 {
+        font-size: 2.5em;
+    }
+    
+    .extras {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
+        margin-top: 3em;
+        justify-content: center;
+    }
+    
+    .extra {
+        background: linear-gradient(-45deg, #000000, rgb(75, 75, 75), #272727, #4b4b4b);
+        background-size: 600% 600%;
+        animation: Gradient 15s ease infinite;
+        -webkit-animation: Gradient 15s ease infinite;
+        border-radius: 0.5em;
+    }
+    
+    .extra-head {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1em 2em;
+    }
+    
+    .extra-head:first-child {
+        color: #59ffd0;
+        font-size: 1.8em;
+    }
+    
+    .extra-head a {
+        color: white;
+        font-size: 0.8em;
+    }
+    
+    .extra-body >* {
+        padding: 0.2em 0em;
+    }
+    
+    .extra-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 2em 2em;
+    }
+    
+    .extra-body h2 {
+        font-size: 1.2em;
+        font-weight: bolder;
+    }
+    
+    .extra-footer {
+        display: flex;
+        align-items: center;
+        padding: 1em 2em;
+    }
+    
+    .extra-footer code:not(:first-child){
+        margin-left: 1em;
+    }
+        
+    /* PRICING */
+    
+    .section-pricing {
+        background-color: black;
+        /* height: 150em; */
+        padding: 0 10em;
+        color: white;
+        margin-top: 14em;
+    }
+    
+    .pricing-title {
+        display: flex;
+        align-items: center;
+    }
+    
+    .section-pricing h1 {
+        font-size: 2.5em;
+    }
+    
+    .section-pricing code {
+        color: #59ffd0;
+    }
+    
+    .pricing-horizontal-line {
+        height: 0.1em;
+        width: 7em;
+        background-color: white;
+        margin-left: 1.5em;
+    }
+    
+    .price-packages {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 1em;
+        margin-top: 2em;
+    }
+    
+    .package {
+        text-align: center;
+        border: 0.1em solid #59ffd0;
+        border-radius: 1em;
+        padding: 0.5em 0.5em;
+    }
+    
+    .package-graphic {
+        padding: 0.5em 0em;
+    }
+    
+    .package-graphic i {
+        font-size: 3em;
+    }
+    
+    .package-title h4 {
+        font-size: 1.3em;
+    }
+    
+    .package-services {
+        padding: 0.5em 0em;
+    }
+    
+    .package-services p {
+        margin: 0.5em 0em;
+    }
+    
+    .package-services p {
+        color: rgb(216, 216, 216);
+    }
+    
+    .package-price h5 {
+        font-size: 1.8em;
+        font-weight: bolder;
+        color: #59ffd0;
+    }
+    
+    .pricing-note {
+        color: #59ffd0;
+    }
+    
+    
+    /* CONTACT */
+    
+    .section-contact {
+        background-color: black;
+        /* height: 70em; */
+        padding: 0 12em;
+        color: white;
+        margin-top: 14em;
+    }
+    
+    .contact-title {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .contact-title code {
+        color: #59ffd0;
+    }
+    
+    .section-contact h1 {
+        font-size: 2.5em;
+    }
+    
+    .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 0em 0em;
+        margin-top: 2em;
+    }
+    
+    .button-contact {
+        padding: 0.8em 2em;
+        border: 0.1em solid #59ffd0;
+        color: #59ffd0;
+        border-radius: 0.5em;
+        margin-top: 2em;
+    }
+    
+    /* FOOTER */
+    
+    footer {
+        background-color: black;
+        /* height: 10em; */
+        padding: 0em 10em;
+        color: white;
+        display: grid;
+        margin-top: 14em;
+    }
+    
+    footer > * {
+        padding: 1.3em 0em;
+    }
+    
+    footer i {
+        color: #59ffd0;
+    }
+    
+    footer .social {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    footer .social > a {
+        margin: 0em 0.7em;
+        font-size: 1.2em;
+        color: #59ffd0;
+    }
+    
+    footer .details {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    
+    .detail {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    
+    footer .details p {
+        margin: 0em 0.3em;
+        font-size: 1em;
+    }
+    
+    
+    /* SIDEBAR */
+    
+    .side-bar {
+        display: none;
       }
     
-            /* SKILLS */
-
-  .section-skills {
-    background-color: black;
-    height: 50em;
-    padding: 0 10em;
-    color: white;
-}
-
-.skills-title {
-    display: flex;
-    align-items: center;
-}
-
-.section-skills h1 {
-    font-size: 2.5em;
-}
-
-.section-skills code {
-    color: #59ffd0;
-}
-
-.skills-horizontal-line {
-    height: 0.1em;
-    width: 7em;
-    background-color: white;
-    margin-left: 1.5em;
-}
-
-.skills {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    row-gap: 3em;
-    column-gap: 1em;
-    margin-top: 2em;
-}
-
-.skill {
-    width: 15em;
-}
-
-.skill p {
-    margin-top: 0.5em;
-}
-
-.skill-title {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-}
-
-.skill-graphic {
-    font-size: 1.2em;
-    color: #59ffd0;
-}
-
-.skill-title h4 {
-    margin-left: 0.5em;
-    font-size: 1.2em;
-}
-
-/* PROJECTS */
-
-.section-projects {
-    background-color: black;
-    height: 100em;
-    padding: 0 10em;
-    color: white;
-}
-
-.projects-title {
-    display: flex;
-    align-items: center;
-}
-
-.section-projects h1 {
-    font-size: 2.5em;
-}
-
-.section-projects code {
-    color: #59ffd0;
-}
-
-.projects-horizontal-line {
-    height: 0.1em;
-    width: 7em;
-    background-color: white;
-    margin-left: 1.5em;
-}
-
-.project-1,
-.project-2,
-.project-3
-{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    justify-content: center;
-    column-gap: 1em;
-}
-
-.project-1 img,
-.project-2 img, 
-.project-3 img 
-{
-    border-radius: 0.5em;
-}
-
-.project-1-info,
-.project-3-info
-{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    text-align: end;
-}
-
-.project-1-info code,
-.project-2-info code,
-.project-3-info code
-{
-    margin-bottom: 0.3em;
-}
-
-.project-1-info h2,
-.project-2-info h2,
-.project-3-info h2
-{
-    font-size: 1.2em;
-    font-weight: bolder;
-}
-
-.project-1-info code:nth-child(1),
-.project-2-info code:nth-child(1),
-.project-3-info code:nth-child(1)
-{
-    font-size: 0.9em;
-}
-
-.project-1-description,
-.project-2-description,
-.project-3-description
-{
-    background-color: rgb(75, 75, 75);
-    padding: 0.3em 1.5em;
-    border-radius: 0.5em;
-    margin: 0.5em 0em;
-}
-
-.project-1-description p,
-.project-2-description p,
-.project-3-description p
-{
-    font-size: 0.8em;
-}
-
-.project-1-technologies,
-.project-2-technologies,
-.project-3-technologies  
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.project-1-technologies code,
-.project-2-technologies code,
-.project-3-technologies code
-{
-    color: rgb(197, 197, 197);
-    font-size: 0.8em;
-}
-
-.project-1-links,
-.project-2-links,
-.project-3-links
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 0.3em;
-}
-
-.project-1-links a,
-.project-2-links a,
-.project-3-links a 
-{
-    font-size: 1.3em;
-    color: white;
-}
-
-.project-1-technologies code:not(:last-child),
-.project-2-technologies code:not(:last-child),
-.project-3-technologies code:not(:last-child),
-.project-1-links a:not(:last-child),
-.project-2-links a:not(:last-child),
-.project-3-links a:not(:last-child)
-{ 
-    margin-right: 1em;
-}
-
-.project-1 {
-    margin-top: 4em;
-}
-
-.project-2,
-.project-3
-{
-    margin-top: 7em;
-}
-
-.project-2-info {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    text-align: start;
-}
-
-/* EXTRAS */
-.section-extras {
-    background-color: black;
-    height: 100em;
-    padding: 0 12em;
-    color: white;
-}
-
-.extras-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.section-extras h1 {
-    font-size: 2.5em;
-}
-
-.extras {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1em;
-    margin-top: 3em;
-    justify-content: center;
-}
-
-.extra {
-    background: linear-gradient(-45deg, #000000, rgb(75, 75, 75), #272727, #4b4b4b);
-    background-size: 600% 600%;
-    animation: Gradient 15s ease infinite;
-    -webkit-animation: Gradient 15s ease infinite;
-    border-radius: 0.5em;
-}
-
-.extra-head {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1em 2em;
-}
-
-.extra-head:first-child {
-    color: #59ffd0;
-    font-size: 1.8em;
-}
-
-.extra-head a {
-    color: white;
-    font-size: 0.8em;
-}
-
-.extra-body >* {
-    padding: 0.2em 0em;
-}
-
-.extra-body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 2em 2em;
-}
-
-.extra-body h2 {
-    font-size: 1.2em;
-    font-weight: bolder;
-}
-
-.extra-footer {
-    display: flex;
-    align-items: center;
-    padding: 1em 2em;
-}
-
-.extra-footer code:not(:first-child){
-    margin-left: 1em;
-}
-
-/* PRICING */
-
-.section-pricing {
-    background-color: black;
-    height: 150em;
-    padding: 0 10em;
-    color: white;
-}
-
-.pricing-title {
-    display: flex;
-    align-items: center;
-}
-
-.section-pricing h1 {
-    font-size: 2.5em;
-}
-
-.section-pricing code {
-    color: #59ffd0;
-}
-
-.pricing-horizontal-line {
-    height: 0.1em;
-    width: 7em;
-    background-color: white;
-    margin-left: 1.5em;
-}
-
-.price-packages {
-    display: grid;
-    grid-template-columns: 1fr;
-    row-gap: 1em;
-    margin-top: 2em;
-}
-
-.package {
-    text-align: center;
-    border: 0.1em solid #59ffd0;
-    border-radius: 1em;
-    padding: 0.5em 0.5em;
-}
-
-.package-graphic {
-    padding: 0.5em 0em;
-}
-
-.package-graphic i {
-    font-size: 3em;
-}
-
-.package-title h4 {
-    font-size: 1.3em;
-}
-
-.package-services {
-    padding: 0.5em 0em;
-}
-
-.package-services p {
-    margin: 0.5em 0em;
-}
-
-.package-services p {
-    color: rgb(216, 216, 216);
-}
-
-.package-price h5 {
-    font-size: 1.8em;
-    font-weight: bolder;
-    color: #59ffd0;
-}
-
-.pricing-note {
-    color: #59ffd0;
-}
-
-/* CONTACT */
-
-.section-contact {
-    background-color: black;
-    height: 70em;
-    padding: 0 12em;
-    color: white;
-}
-
-.contact-title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.contact-title code {
-    color: #59ffd0;
-}
-
-.section-contact h1 {
-    font-size: 2.5em;
-}
-
-.contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding: 0em 0em;
-    margin-top: 2em;
-}
-
-.button-contact {
-    padding: 0.8em 2em;
-    border: 0.1em solid #59ffd0;
-    color: #59ffd0;
-    border-radius: 0.5em;
-    margin-top: 2em;
-}
-
-/* FOOTER */
-
-footer {
-    background-color: black;
-    height: 10em;
-    padding: 0em 10em;
-    color: white;
-    display: grid;
-}
-
-footer i {
-    color: #59ffd0;
-}
-
-footer .social {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-footer .social > a {
-    margin: 0em 0.7em;
-    font-size: 1.2em;
-    color: #59ffd0;
-}
-
-footer .details {
-    display: flex;
-    align-items: center;
-    flex-direction: column-reverse;
-}
-
-.detail {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-}
-
-footer .details p {
-    margin: 0em 0.3em;
-    font-size: 1em;
-}
-
-/* SIDEBAR */
-
-.side-bar {
-    display: none;
-  }
-
-     /* TOP BUTTON */
-     .top-button div {
-        height: 3.5em; 
-        width: 3.5em; 
-        background-color: rgb(122, 122, 122); 
-        color: white; 
-        border-radius: 0.5em; 
-        position: fixed; 
-        bottom: 3em; 
-        right: 4em;
-        cursor: pointer;
-        box-shadow: 0 0.4em 0.8em 0 rgba(0, 0, 0, 0.2), 0 0.6em 2em 0 rgba(0, 0, 0, 0.19);
-      }
-      
-      .top-button p {
-        font-size: 1.5em
-      }
-
+          /* TOP BUTTON */
+          .top-button div {
+            height: 3.5em; 
+            width: 3.5em; 
+            background-color: rgb(122, 122, 122); 
+            color: white; 
+            border-radius: 0.5em; 
+            position: fixed; 
+            bottom: 3em; 
+            right: 4em;
+            cursor: pointer;
+            box-shadow: 0 0.4em 0.8em 0 rgba(0, 0, 0, 0.2), 0 0.6em 2em 0 rgba(0, 0, 0, 0.19);
+          }
+          
+          .top-button p {
+            font-size: 1.5em
+          }
+    
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -4626,7 +4698,7 @@ font-size: 2em;
         /* ABOUT */
         .section-about {
             background-color: black;
-            height: 40em;
+            /* height: 40em; */
             padding: 0 2em;
             color: white;
         }
@@ -4718,9 +4790,10 @@ font-size: 2em;
 
   .section-skills {
     background-color: black;
-    height: 90em;
+    /* height: 90em; */
     padding: 0 2em;
     color: white;
+    margin-top: 16em;
 }
 
 .skills-title {
@@ -4785,9 +4858,10 @@ font-size: 2em;
 
 .section-projects {
     background-color: black;
-    height: 120em;
+    /* height: 120em; */
     padding: 0 2em;
     color: white;
+    margin-top: 16em;
 }
 
 .projects-title {
@@ -4954,9 +5028,10 @@ font-size: 2em;
 /* EXTRAS */
 .section-extras {
     background-color: black;
-    height: 120em;
+    /* height: 120em; */
     padding: 0 2em;
     color: white;
+    margin-top: 16em;
 }
 
 .extras-title {
@@ -5038,9 +5113,10 @@ font-size: 2em;
 
 .section-pricing {
     background-color: black;
-    height: 150em;
+    /* height: 150em; */
     padding: 0 2em;
     color: white;
+    margin-top: 16em;
 }
 
 .pricing-title {
@@ -5119,9 +5195,10 @@ font-size: 2em;
 
 .section-contact {
     background-color: black;
-    height: 70em;
+    /* height: 70em; */
     padding: 0 2em;
     color: white;
+    margin-top: 16em;
 }
 
 .contact-title {
@@ -5165,10 +5242,15 @@ font-size: 2em;
 
 footer {
     background-color: black;
-    height: 10em;
+    /* height: 10em; */
     padding: 0em 2em;
     color: white;
     display: grid;
+    margin-top: 16em;
+}
+
+footer > * {
+    padding: 1.2em 0em;
 }
 
 footer i {
@@ -5305,7 +5387,7 @@ padding: 0 40px;
 .navbar {
 background-color: black;
 color: #fff;
-height: 7em;
+/* height: 7em; */
 }
 
 .navbar ul {
@@ -5355,7 +5437,7 @@ font-size: 1.5em;
 /* HERO */
 .section-hero {
     background-color: black;
-    height: 92vh;
+    /* height: 92vh; */
     padding: 0em 1em;
     display: flex;
     align-items: center;
@@ -5396,7 +5478,7 @@ font-size: 1.5em;
  /* ABOUT */
  .section-about {
     background-color: black;
-    height: 50em;
+    /* height: 50em; */
     padding: 0 1em;
     color: white;
 }
@@ -5496,9 +5578,10 @@ font-size: 1.5em;
 
   .section-skills {
     background-color: black;
-    height: 90em;
+    /* height: 90em; */
     padding: 0 1em;
     color: white;
+    margin-top: 15em;
 }
 
 .skills-title {
@@ -5563,9 +5646,10 @@ font-size: 1.5em;
 
 .section-projects {
     background-color: black;
-    height: 120em;
+    /* height: 120em; */
     padding: 0 1em;
     color: white;
+    margin-top: 15em;
 }
 
 .projects-title {
@@ -5732,9 +5816,10 @@ font-size: 1.5em;
 /* EXTRAS */
 .section-extras {
     background-color: black;
-    height: 140em;
+    /* height: 140em; */
     padding: 0 1em;
     color: white;
+    margin-top: 15em;
 }
 
 .extras-title {
@@ -5820,9 +5905,10 @@ font-size: 1.5em;
 
 .section-pricing {
     background-color: black;
-    height: 150em;
+    /* height: 150em; */
     padding: 0 1em;
     color: white;
+    margin-top: 15em;
 }
 
 .pricing-title {
@@ -5902,9 +5988,10 @@ font-size: 1.5em;
 
 .section-contact {
     background-color: black;
-    height: 70em;
+    /* height: 70em; */
     padding: 0 1em;
     color: white;
+    margin-top: 15em;
 }
 
 .contact-title {
@@ -5948,10 +6035,15 @@ font-size: 1.5em;
 
 footer {
     background-color: black;
-    height: 10em;
+    /* height: 10em; */
     padding: 0em 1em;
     color: white;
     display: grid;
+    margin-top: 15em;
+}
+
+footer > * {
+    padding: 1.2em 0em;
 }
 
 footer i {
@@ -6178,7 +6270,7 @@ footer .details p {
  /* ABOUT */
  .section-about {
     background-color: black;
-    height: 40em;
+    /* height: 40em; */
     padding: 0 1em;
     color: white;
 }
@@ -6262,9 +6354,10 @@ footer .details p {
 
   .section-skills {
     background-color: black;
-    height: 65em;
+    /* height: 65em; */
     padding: 0 1em;
     color: white;
+    margin-top: 12em;
 }
 
 .skills-title {
@@ -6329,9 +6422,10 @@ footer .details p {
 
 .section-projects {
     background-color: black;
-    height: 120em;
+    /* height: 120em; */
     padding: 0 1em;
     color: white;
+    margin-top: 12em;
 }
 
 .projects-title {
@@ -6498,9 +6592,10 @@ footer .details p {
 /* EXTRAS */
 .section-extras {
     background-color: black;
-    height: 120em;
+    /* height: 120em; */
     padding: 0 1em;
     color: white;
+    margin-top: 12em;
 }
 
 .extras-title {
@@ -6586,9 +6681,10 @@ footer .details p {
 
 .section-pricing {
     background-color: black;
-    height: 150em;
+    /* height: 150em; */
     padding: 0 1em;
     color: white;
+    margin-top: 12em;
 }
 
 .pricing-title {
@@ -6667,9 +6763,10 @@ footer .details p {
 
 .section-contact {
     background-color: black;
-    height: 70em;
+    /* height: 70em; */
     padding: 0 1em;
     color: white;
+    margin-top: 12em;
 }
 
 .contact-title {
@@ -6713,10 +6810,15 @@ footer .details p {
 
 footer {
     background-color: black;
-    height: 10em;
+    /* height: 10em; */
     padding: 0em 1em;
     color: white;
     display: grid;
+    margin-top: 12em;
+}
+
+footer > * {
+    padding: 1em 0em;
 }
 
 footer i {

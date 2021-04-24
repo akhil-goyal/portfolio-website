@@ -58,6 +58,7 @@
 
 body {
   font-family: var(--main-font);
+  background-color: black;
   line-height: 1.6;
   padding: 0;
 }

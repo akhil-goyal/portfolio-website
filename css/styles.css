@@ -96,7 +96,7 @@
 /* ABOUT */
 .section-about {
   background-color: black;
-  height: 30em;
+  /* height: 30em; */
   padding: 0 20em;
   color: white;
 }
@@ -167,9 +167,10 @@ margin-top: 1em;
 
   .section-skills {
     background-color: black;
-    height: 35em;
+    /* height: 35em; */
     padding: 0 20em;
     color: white;
+    margin-top: 10em;
 }
 
 .skills-title {
@@ -227,9 +228,10 @@ margin-top: 1em;
 
 .section-projects {
   background-color: black;
-  height: 100em;
+  /* height: 100em; */
   padding: 0 20em;
   color: white;
+  margin-top: 10em;
 }
 
 .projects-title {
@@ -376,9 +378,10 @@ margin-top: 1em;
 /* EXTRAS */
 .section-extras {
   background-color: black;
-  height: 100em;
+  /* height: 100em; */
   padding: 0 20em;
   color: white;
+  margin-top: 2em;
 }
 
 .extras-title {
@@ -451,9 +454,10 @@ margin-top: 1em;
 
 .section-pricing {
   background-color: black;
-  height: 100em;
+  /* height: 100em; */
   padding: 0 20em;
   color: white;
+  margin-top: 10em;
 }
 
 .pricing-title {
@@ -528,9 +532,10 @@ margin-top: 1em;
 
 .section-contact {
   background-color: black;
-  height: 70em;
+  /* height: 70em; */
   padding: 0 20em;
   color: white;
+  margin-top: 5em;
 }
 
 .contact-title {
@@ -569,7 +574,7 @@ margin-top: 1em;
 
 footer {
   background-color: black;
-  height: 10em;
+  /* height: 10em; */
   padding: 0em 20em;
   color: white;
   display: grid;
