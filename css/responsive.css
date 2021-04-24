@@ -136,7 +136,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    margin-top: 2em;
+    margin-top: 1em;
   }
 
   .about-info p:nth-child(2){
@@ -421,7 +421,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5em;
-    margin-top: 3em;
+    margin-top: 1em;
 }
 
 .extra {
@@ -517,7 +517,7 @@
 .price-packages {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 3em;
+    column-gap: 2em;
     margin-top: 2em;
 }
 
@@ -597,7 +597,7 @@
     justify-content: center;
     text-align: center;
     padding: 0em 15em;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .button-contact {
@@ -812,7 +812,7 @@ footer .details p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    margin-top: 2em;
+    margin-top: 1em;
   }
 
   .about-info p:nth-child(2){
@@ -885,9 +885,9 @@ footer .details p {
 .skills {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 4em;
+    row-gap: 2em;
     column-gap: 1em;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .skill {
@@ -1049,13 +1049,13 @@ footer .details p {
 }
 
 .project-1 {
-    margin-top: 4em;
+    margin-top: 3em;
 }
 
 .project-2,
 .project-3
 {
-    margin-top: 7em;
+    margin-top: 3em;
 }
 
 .project-2-info {
@@ -1088,7 +1088,7 @@ footer .details p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1em;
-    margin-top: 3em;
+    margin-top: 1em;
 }
 
 .extra {
@@ -1172,8 +1172,8 @@ footer .details p {
 .price-packages {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 3em;
-    margin-top: 2em;
+    column-gap: 1em;
+    margin-top: 1em;
 }
 
 .package {
@@ -1248,7 +1248,7 @@ footer .details p {
     justify-content: center;
     text-align: center;
     padding: 0em 15em;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .button-contact {
@@ -1457,7 +1457,7 @@ footer .details p {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .about-info p:nth-child(2){
@@ -1533,7 +1533,7 @@ footer .details p {
   justify-content: center;
   row-gap: 4em;
   column-gap: 1em;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .skill {
@@ -1695,13 +1695,13 @@ footer .details p {
 }
 
 .project-1 {
-  margin-top: 4em;
+  margin-top: 3em;
 }
 
 .project-2,
 .project-3
 {
-  margin-top: 7em;
+  margin-top: 3em;
 }
 
 .project-2-info {
@@ -1734,7 +1734,7 @@ footer .details p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1em;
-  margin-top: 3em;
+  margin-top: 1em;
 }
 
 .extra {
@@ -1818,8 +1818,8 @@ footer .details p {
 .price-packages {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 3em;
-  margin-top: 2em;
+  column-gap: 1em;
+  margin-top: 1em;
 }
 
 .package {
@@ -1894,7 +1894,7 @@ footer .details p {
   justify-content: center;
   text-align: center;
   padding: 0em 15em;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .button-contact {
@@ -2103,7 +2103,7 @@ footer .details p {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .about-info p:nth-child(2){
@@ -2177,9 +2177,9 @@ footer .details p {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
-  row-gap: 4em;
+  row-gap: 2em;
   column-gap: 1em;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .skill {
@@ -2341,13 +2341,13 @@ footer .details p {
 }
 
 .project-1 {
-  margin-top: 4em;
+  margin-top: 3em;
 }
 
 .project-2,
 .project-3
 {
-  margin-top: 7em;
+  margin-top: 3em;
 }
 
 .project-2-info {
@@ -2380,7 +2380,7 @@ footer .details p {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1em;
-  margin-top: 3em;
+  margin-top: 1em;
 }
 
 .extra {
@@ -2464,8 +2464,8 @@ footer .details p {
 .price-packages {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 3em;
-  margin-top: 2em;
+  column-gap: 1em;
+  margin-top: 1em;
 }
 
 .package {
@@ -2540,7 +2540,7 @@ footer .details p {
   justify-content: center;
   text-align: center;
   padding: 0em 15em;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .button-contact {
@@ -2747,7 +2747,7 @@ footer .details p {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .about-info p:nth-child(2){
@@ -2820,9 +2820,9 @@ footer .details p {
 .skills {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 3em;
+    row-gap: 2em;
     column-gap: 1em;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .skill {
@@ -2990,13 +2990,13 @@ footer .details p {
 }
 
 .project-1 {
-    margin-top: 4em;
+    margin-top: 3em;
 }
 
 .project-2,
 .project-3
 {
-    margin-top: 7em;
+    margin-top: 3em;
 }
 
 .project-2-info {
@@ -3029,7 +3029,7 @@ footer .details p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1em;
-    margin-top: 3em;
+    margin-top: 1em;
     justify-content: center;
 }
 
@@ -3642,13 +3642,13 @@ footer .details p {
 }
 
 .project-1 {
-    margin-top: 4em;
+    margin-top: 1em;
 }
 
 .project-2,
 .project-3
 {
-    margin-top: 7em;
+    margin-top: 3em;
 }
 
 .project-2-info {
@@ -3681,7 +3681,7 @@ footer .details p {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 1em;
-    margin-top: 3em;
+    margin-top: 1em;
     justify-content: center;
 }
 
@@ -3771,8 +3771,8 @@ footer .details p {
 .price-packages {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 1em;
-    margin-top: 2em;
+    row-gap: 2em;
+    margin-top: 1em;
 }
 
 .package {
@@ -3903,7 +3903,7 @@ footer .details {
 }
 
 footer .details p {
-    margin: 0em 0.3em;
+    margin: 0.3em 0.3em;
     font-size: 1em;
 }
 
@@ -4302,13 +4302,13 @@ footer .details p {
     }
     
     .project-1 {
-        margin-top: 4em;
+        margin-top: 1em;
     }
     
     .project-2,
     .project-3
     {
-        margin-top: 7em;
+        margin-top: 3em;
     }
     
     .project-2-info {
@@ -4341,7 +4341,7 @@ footer .details p {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 1em;
-        margin-top: 3em;
+        margin-top: 1em;
         justify-content: center;
     }
     
@@ -4431,8 +4431,8 @@ footer .details p {
     .price-packages {
         display: grid;
         grid-template-columns: 1fr;
-        row-gap: 1em;
-        margin-top: 2em;
+        row-gap: 2em;
+        margin-top: 1em;
     }
     
     .package {
@@ -4563,7 +4563,7 @@ footer .details p {
     }
     
     footer .details p {
-        margin: 0em 0.3em;
+        margin: 0.3em 0.3em;
         font-size: 1em;
     }
     
@@ -4823,9 +4823,9 @@ font-size: 2em;
 .skills {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 3em;
-    column-gap: 1em;
-    margin-top: 2em;
+    row-gap: 1.5em;
+    /* column-gap: 1em; */
+    margin-top: 1em;
 }
 
 .skill {
@@ -4888,6 +4888,10 @@ font-size: 2em;
     margin-left: 1.5em;
 }
 
+.projects {
+    padding: 0em 1em;
+}
+
 .project-1,
 .project-3
 {
@@ -4903,7 +4907,7 @@ font-size: 2em;
 .project-2 img, 
 .project-3 img 
 {
-    width: 70%;
+    width: 100%;
     border-radius: 0.5em;
     justify-self: center;
 }
@@ -5003,13 +5007,13 @@ font-size: 2em;
 }
 
 .project-1 {
-    margin-top: 4em;
+    margin-top: 1.5em;
 }
 
 .project-2,
 .project-3
 {
-    margin-top: 7em;
+    margin-top: 3em;
 }
 
 .project-2 {
@@ -5050,6 +5054,7 @@ font-size: 2em;
     gap: 1em;
     margin-top: 3em;
     justify-content: center;
+    padding: 0em 1em;
 }
 
 .extra {
@@ -5146,8 +5151,9 @@ font-size: 2em;
 .price-packages {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 1em;
-    margin-top: 2em;
+    row-gap: 2em;
+    margin-top: 1.5em;
+    padding: 0em 1em;
 }
 
 .package {
@@ -5282,7 +5288,7 @@ footer .details {
 }
 
 footer .details p {
-    margin: 0em 0.3em;
+    margin: 0.3em 0.3em;
     font-size: 0.9em;
 }
 
@@ -5676,6 +5682,10 @@ font-size: 1.5em;
     margin-left: 1.5em;
 }
 
+.projects { 
+    padding: 0em 1em;
+}
+
 .project-1,
 .project-3
 {
@@ -5683,7 +5693,7 @@ font-size: 1.5em;
     grid-template-columns: 1fr;
     align-items: center;
     justify-content: center;
-    column-gap: 1em;
+    /* column-gap: 1em; */
     text-align: center;
 }
 
@@ -5691,7 +5701,7 @@ font-size: 1.5em;
 .project-2 img, 
 .project-3 img 
 {
-    width: 90%;
+    width: 100%;
     border-radius: 0.5em;
     justify-self: center;
 }
@@ -5791,13 +5801,13 @@ font-size: 1.5em;
 }
 
 .project-1 {
-    margin-top: 4em;
+    margin-top: 1em;
 }
 
 .project-2,
 .project-3
 {
-    margin-top: 7em;
+    margin-top: 2em;
 }
 
 .project-2 {
@@ -5836,8 +5846,9 @@ font-size: 1.5em;
     display: grid;
     grid-template-columns: 1fr;
     gap: 1em;
-    margin-top: 3em;
+    margin-top: 1em;
     justify-content: center;
+    padding: 0em 1em;
 }
 
 .extra {
@@ -5939,7 +5950,7 @@ font-size: 1.5em;
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 2em;
-    margin-top: 2em;
+    margin-top: 1em;
     padding: 0em 1em;
 }
 
@@ -6019,7 +6030,7 @@ font-size: 1.5em;
     justify-content: center;
     text-align: center;
     padding: 0em 0em;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .button-contact {
@@ -6027,7 +6038,7 @@ font-size: 1.5em;
     border: 0.1em solid #59ffd0;
     color: #59ffd0;
     border-radius: 0.5em;
-    margin-top: 2em;
+    margin-top: 1em;
     font-size: 0.9em
 }
 
@@ -6075,7 +6086,7 @@ footer .details {
 }
 
 footer .details p {
-    margin: 0em 0.3em;
+    margin: 0.3em 0.3em;
     font-size: 0.9em
 }
 
@@ -6387,9 +6398,9 @@ footer .details p {
 .skills {
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 3em;
+    row-gap: 1.5em;
     column-gap: 1em;
-    margin-top: 2em;
+    margin-top: 1em;
 }
 
 .skill {
@@ -6423,7 +6434,7 @@ footer .details p {
 .section-projects {
     background-color: black;
     /* height: 120em; */
-    padding: 0 1em;
+    padding: 0em 2em;
     color: white;
     margin-top: 12em;
 }
@@ -6567,13 +6578,13 @@ footer .details p {
 }
 
 .project-1 {
-    margin-top: 4em;
+    margin-top: 1em;
 }
 
 .project-2,
 .project-3
 {
-    margin-top: 7em;
+    margin-top: 2em;
 }
 
 .project-2 {
@@ -6614,6 +6625,7 @@ footer .details p {
     gap: 1em;
     margin-top: 1em;
     justify-content: center;
+    padding: 0em 1em;
 }
 
 .extra {
@@ -6716,6 +6728,7 @@ footer .details p {
     grid-template-columns: 1fr;
     row-gap: 1em;
     margin-top: 1em;
+    padding: 0em 1em;
 }
 
 .package {
@@ -6818,7 +6831,7 @@ footer {
 }
 
 footer > * {
-    padding: 1em 0em;
+    padding: 0.7em 0em;
 }
 
 footer i {
@@ -6850,7 +6863,7 @@ footer .details {
 }
 
 footer .details p {
-    margin: 0em 0.3em;
+    margin: 0.3em 0.3em;
     font-size: 0.7em;
 }
 
