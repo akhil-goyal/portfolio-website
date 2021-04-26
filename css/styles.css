@@ -6,6 +6,10 @@
   padding: 0 40px;
 }
 
+section{
+  content-visibility: auto;
+}
+
 .navbar {
   background-color: black;
   color: #fff;
@@ -225,7 +229,7 @@ margin-top: 1em;
     color: #59ffd0;
 }
 
-.skill-title h4 {
+.skill-title h2 {
     margin-left: 0.5em;
     font-size: 1.4em;
 }
@@ -522,7 +526,7 @@ margin-top: 1em;
   font-size: 4em;
 }
 
-.package-title h4 {
+.package-title h2 {
   font-size: 1.5em;
 }
 
@@ -538,7 +542,7 @@ margin-top: 1em;
   color: rgb(216, 216, 216);
 }
 
-.package-price h5 {
+.package-price h3 {
   font-size: 2em;
   font-weight: bolder;
   color: #59ffd0;

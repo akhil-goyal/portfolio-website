@@ -234,7 +234,7 @@
     color: #59ffd0;
 }
 
-.skill-title h4 {
+.skill-title h2 {
     margin-left: 0.5em;
     font-size: 1.4em;
 }
@@ -536,7 +536,7 @@
     font-size: 6em;
 }
 
-.package-title h4 {
+.package-title h2 {
     font-size: 2em;
 }
 
@@ -552,7 +552,7 @@
     color: rgb(216, 216, 216);
 }
 
-.package-price h5 {
+.package-price h3 {
     font-size: 2em;
     font-weight: bolder;
     color: #59ffd0;
@@ -909,7 +909,7 @@ footer .details p {
     color: #59ffd0;
 }
 
-.skill-title h4 {
+.skill-title h2 {
     margin-left: 0.5em;
     font-size: 1.4em;
 }
@@ -1191,7 +1191,7 @@ footer .details p {
     font-size: 4em;
 }
 
-.package-title h4 {
+.package-title h2 {
     font-size: 1.5em;
 }
 
@@ -1207,7 +1207,7 @@ footer .details p {
     color: rgb(216, 216, 216);
 }
 
-.package-price h5 {
+.package-price h3 {
     font-size: 2em;
     font-weight: bolder;
     color: #59ffd0;
@@ -1555,7 +1555,7 @@ footer .details p {
   color: #59ffd0;
 }
 
-.skill-title h4 {
+.skill-title h2 {
   margin-left: 0.5em;
   font-size: 1.4em;
 }
@@ -1837,7 +1837,7 @@ footer .details p {
   font-size: 4em;
 }
 
-.package-title h4 {
+.package-title h2 {
   font-size: 1.5em;
 }
 
@@ -1853,7 +1853,7 @@ footer .details p {
   color: rgb(216, 216, 216);
 }
 
-.package-price h5 {
+.package-price h3 {
   font-size: 2em;
   font-weight: bolder;
   color: #59ffd0;
@@ -2201,7 +2201,7 @@ footer .details p {
   color: #59ffd0;
 }
 
-.skill-title h4 {
+.skill-title h2 {
   margin-left: 0.5em;
   font-size: 1.4em;
 }
@@ -2483,7 +2483,7 @@ footer .details p {
   font-size: 4em;
 }
 
-.package-title h4 {
+.package-title h2 {
   font-size: 1.5em;
 }
 
@@ -2499,7 +2499,7 @@ footer .details p {
   color: rgb(216, 216, 216);
 }
 
-.package-price h5 {
+.package-price h3 {
   font-size: 2em;
   font-weight: bolder;
   color: #59ffd0;
@@ -2844,7 +2844,7 @@ footer .details p {
     color: #59ffd0;
 }
 
-.skill-title h4 {
+.skill-title h2 {
     margin-left: 0.5em;
     font-size: 1.2em;
 }
@@ -3133,7 +3133,7 @@ footer .details p {
     font-size: 3em;
 }
 
-.package-title h4 {
+.package-title h2 {
     font-size: 1.3em;
 }
 
@@ -3149,7 +3149,7 @@ footer .details p {
     color: rgb(216, 216, 216);
 }
 
-.package-price h5 {
+.package-price h3 {
     font-size: 1.8em;
     font-weight: bolder;
     color: #59ffd0;
@@ -3495,7 +3495,7 @@ footer .details p {
     color: #59ffd0;
 }
 
-.skill-title h4 {
+.skill-title h2 {
     margin-left: 0.5em;
     font-size: 1.2em;
 }
@@ -3790,7 +3790,7 @@ footer .details p {
     font-size: 3em;
 }
 
-.package-title h4 {
+.package-title h2 {
     font-size: 1.3em;
 }
 
@@ -3806,7 +3806,7 @@ footer .details p {
     color: rgb(216, 216, 216);
 }
 
-.package-price h5 {
+.package-price h3 {
     font-size: 1.8em;
     font-weight: bolder;
     color: #59ffd0;
@@ -4155,7 +4155,7 @@ footer .details p {
         color: #59ffd0;
     }
     
-    .skill-title h4 {
+    .skill-title h2 {
         margin-left: 0.5em;
         font-size: 1.2em;
     }
@@ -4450,7 +4450,7 @@ footer .details p {
         font-size: 3em;
     }
     
-    .package-title h4 {
+    .package-title h2 {
         font-size: 1.3em;
     }
     
@@ -4466,7 +4466,7 @@ footer .details p {
         color: rgb(216, 216, 216);
     }
     
-    .package-price h5 {
+    .package-price h3 {
         font-size: 1.8em;
         font-weight: bolder;
         color: #59ffd0;
@@ -4849,7 +4849,7 @@ font-size: 2em;
     color: #59ffd0;
 }
 
-.skill-title h4 {
+.skill-title h2 {
     margin-left: 0.5em;
     font-size: 1.2em;
 }
@@ -5171,7 +5171,7 @@ font-size: 2em;
     font-size: 3em;
 }
 
-.package-title h4 {
+.package-title h2 {
     font-size: 1.3em;
 }
 
@@ -5187,7 +5187,7 @@ font-size: 2em;
     color: rgb(216, 216, 216);
 }
 
-.package-price h5 {
+.package-price h3 {
     font-size: 1.5em;
     font-weight: bolder;
     color: #59ffd0;
@@ -5643,7 +5643,7 @@ font-size: 1.5em;
     color: #59ffd0;
 }
 
-.skill-title h4 {
+.skill-title h2 {
     margin-left: 0.5em;
     font-size: 1.2em;
 }
@@ -5969,7 +5969,7 @@ font-size: 1.5em;
     font-size: 3em;
 }
 
-.package-title h4 {
+.package-title h2 {
     font-size: 1.1em;
 }
 
@@ -5985,7 +5985,7 @@ font-size: 1.5em;
     color: rgb(216, 216, 216);
 }
 
-.package-price h5 {
+.package-price h3 {
     font-size: 1.3em;
     font-weight: bolder;
     color: #59ffd0;
@@ -6424,7 +6424,7 @@ footer .details p {
     color: #59ffd0;
 }
 
-.skill-title h4 {
+.skill-title h2 {
     margin-left: 0.5em;
     font-size: 1em;
 }
@@ -6746,7 +6746,7 @@ footer .details p {
     font-size: 1.5em;
 }
 
-.package-title h4 {
+.package-title h2 {
     font-size: 0.9em;
 }
 
@@ -6762,7 +6762,7 @@ footer .details p {
     color: rgb(216, 216, 216);
 }
 
-.package-price h5 {
+.package-price h3 {
     font-size: 1em;
     font-weight: bolder;
     color: #59ffd0;
