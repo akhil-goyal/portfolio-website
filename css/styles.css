@@ -591,12 +591,8 @@ margin-top: 1em;
   border: 0.1em solid #59ffd0;
   color: #59ffd0;
   border-radius: 0.5em;
+  font-size: 1em;
   margin-top: 2em;
-  transition: all .1s ease-in-out;
-}
-
-.button-contact:hover{
-  transform: scale(1.1);
   cursor: pointer;
 }
 
