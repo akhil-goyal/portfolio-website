@@ -17,5 +17,5 @@ document.addEventListener('click', (e) => {
 });
 
 contactButton.addEventListener('click', () => {
-    window.open('mailto:hey@akhilgoyal.com');
+    window.open('mailto:akhilgoyal.work@gmail.com');
 });
