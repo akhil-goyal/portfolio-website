@@ -685,6 +685,79 @@ footer .details p {
     font-size: 2em
   }
 
+  /* ARCHIVES */
+
+.section-archives {
+    background-color: black;
+    height: 31vh;
+    padding: 0em 15em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .archives-hero {
+    color: #fff;
+  }
+  
+  .archives-hero code {
+    font-size: 1.8em;
+  }
+  
+  .archives-hero h1 {
+    font-size: 5em;
+    font-weight: bolder;
+  }
+  
+  .archives-list {
+    background-color: black;
+    height: 31vh;
+    padding: 0em 15em;
+    display: flex;
+    align-items: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  td,
+  th {
+    text-align: left;
+    padding: 8px 30px;
+  }
+  
+  th {
+    color: #d4d4d4;
+    font-size: 1.4em;
+  }
+  
+  td {
+    color: #fff;
+    font-size: 1.3em;
+  }
+  
+  .index {
+    color: #59ffd0;
+  }
+  
+  .archive-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 3.5em;
+  }
+  
+  .archive-links i {
+    font-size: 1.4em;
+    color: white;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .archive-links i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
 }
 
 @media (min-width: 1600px) and (max-width: 1899px) {
@@ -1328,6 +1401,78 @@ footer .details p {
   
   .top-button p {
     font-size: 1.5em
+  }
+
+  /* ARCHIVES */
+
+.section-archives {
+    background-color: black;
+    height: 31vh;
+    padding: 0em 15em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .archives-hero {
+    color: #fff;
+  }
+  
+  .archives-hero code {
+    font-size: 1.5em;
+  }
+  
+  .archives-hero h1 {
+    font-size: 4em;
+    font-weight: bolder;
+  }
+  
+  .archives-list {
+    background-color: black;
+    height: 31vh;
+    padding: 0em 15em;
+    display: flex;
+    align-items: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  td,
+  th {
+    text-align: left;
+    padding: 8px 30px;
+  }
+  
+  th {
+    color: #d4d4d4;
+    font-size: 1.1em;
+  }
+  
+  td {
+    color: #fff;
+  }
+  
+  .index {
+    color: #59ffd0;
+  }
+  
+  .archive-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 3em;
+  }
+  
+  .archive-links i {
+    font-size: 1.2em;
+    color: white;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .archive-links i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
   }
 
 }
@@ -1976,6 +2121,78 @@ footer .details p {
     font-size: 1.5em
   }
 
+    /* ARCHIVES */
+
+.section-archives {
+    background-color: black;
+    height: 40vh;
+    padding: 0em 10em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .archives-hero {
+    color: #fff;
+  }
+  
+  .archives-hero code {
+    font-size: 1.5em;
+  }
+  
+  .archives-hero h1 {
+    font-size: 4em;
+    font-weight: bolder;
+  }
+  
+  .archives-list {
+    background-color: black;
+    height: 40vh;
+    padding: 0em 10em;
+    display: flex;
+    align-items: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  td,
+  th {
+    text-align: left;
+    padding: 8px 30px;
+  }
+  
+  th {
+    color: #d4d4d4;
+    font-size: 1.1em;
+  }
+  
+  td {
+    color: #fff;
+  }
+  
+  .index {
+    color: #59ffd0;
+  }
+  
+  .archive-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 3em;
+  }
+  
+  .archive-links i {
+    font-size: 1.2em;
+    color: white;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .archive-links i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
 }
 
 @media (min-width: 1281px) and (max-width: 1399px) {
@@ -2620,6 +2837,78 @@ footer .details p {
   
   .top-button p {
     font-size: 1.5em
+  }
+
+    /* ARCHIVES */
+
+.section-archives {
+    background-color: black;
+    height: 31vh;
+    padding: 0em 10em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .archives-hero {
+    color: #fff;
+  }
+  
+  .archives-hero code {
+    font-size: 1.5em;
+  }
+  
+  .archives-hero h1 {
+    font-size: 4em;
+    font-weight: bolder;
+  }
+  
+  .archives-list {
+    background-color: black;
+    height: 31vh;
+    padding: 0em 10em;
+    display: flex;
+    align-items: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  td,
+  th {
+    text-align: left;
+    padding: 8px 30px;
+  }
+  
+  th {
+    color: #d4d4d4;
+    font-size: 1.1em;
+  }
+  
+  td {
+    color: #fff;
+  }
+  
+  .index {
+    color: #59ffd0;
+  }
+  
+  .archive-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 3em;
+  }
+  
+  .archive-links i {
+    font-size: 1.2em;
+    color: white;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .archive-links i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
   }
 
 }
@@ -3271,6 +3560,78 @@ footer .details p {
       .top-button p {
         font-size: 1.5em
       }
+
+          /* ARCHIVES */
+
+.section-archives {
+    background-color: black;
+    height: 31vh;
+    padding: 0em 8em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .archives-hero {
+    color: #fff;
+  }
+  
+  .archives-hero code {
+    font-size: 1.3em;
+  }
+  
+  .archives-hero h1 {
+    font-size: 3em;
+    font-weight: bolder;
+  }
+  
+  .archives-list {
+    background-color: black;
+    height: 31vh;
+    padding: 0em 6em;
+    display: flex;
+    align-items: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  td,
+  th {
+    text-align: left;
+    padding: 8px 15px;
+  }
+  
+  th {
+    color: #d4d4d4;
+    font-size: 1.1em;
+  }
+  
+  td {
+    color: #fff;
+  }
+  
+  .index {
+    color: #59ffd0;
+  }
+  
+  .archive-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 3em;
+  }
+  
+  .archive-links i {
+    font-size: 1.2em;
+    color: white;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .archive-links i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
 
 }
 
@@ -3932,6 +4293,78 @@ footer .details p {
         font-size: 1.5em
       }
 
+       /* ARCHIVES */
+
+.section-archives {
+    background-color: black;
+    height: 40vh;
+    padding: 0em 5em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .archives-hero {
+    color: #fff;
+  }
+  
+  .archives-hero code {
+    font-size: 1.3em;
+  }
+  
+  .archives-hero h1 {
+    font-size: 3em;
+    font-weight: bolder;
+  }
+  
+  .archives-list {
+    background-color: black;
+    height: 40vh;
+    padding: 0em 5em;
+    display: flex;
+    align-items: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  td,
+  th {
+    text-align: left;
+    padding: 8px 10px;
+  }
+  
+  th {
+    color: #d4d4d4;
+    font-size: 1.1em;
+  }
+  
+  td {
+    color: #fff;
+  }
+  
+  .index {
+    color: #59ffd0;
+  }
+  
+  .archive-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 3em;
+  }
+  
+  .archive-links i {
+    font-size: 1.2em;
+    color: white;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .archive-links i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
 }
 
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -4591,6 +5024,78 @@ footer .details p {
           .top-button p {
             font-size: 1.5em
           }
+
+                 /* ARCHIVES */
+
+.section-archives {
+    background-color: black;
+    height: 40vh;
+    padding: 0em 5em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .archives-hero {
+    color: #fff;
+  }
+  
+  .archives-hero code {
+    font-size: 1.3em;
+  }
+  
+  .archives-hero h1 {
+    font-size: 3em;
+    font-weight: bolder;
+  }
+  
+  .archives-list {
+    background-color: black;
+    height: 40vh;
+    padding: 0em 5em;
+    display: flex;
+    align-items: center;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  td,
+  th {
+    text-align: left;
+    padding: 8px 10px;
+  }
+  
+  th {
+    color: #d4d4d4;
+    font-size: 1.1em;
+  }
+  
+  td {
+    color: #fff;
+  }
+  
+  .index {
+    color: #59ffd0;
+  }
+  
+  .archive-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 3em;
+  }
+  
+  .archive-links i {
+    font-size: 1.2em;
+    color: white;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .archive-links i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
     
 }
 
@@ -5377,6 +5882,82 @@ footer .details p {
       .top-button p {
         font-size: 1.5em
       }
+
+             /* ARCHIVES */
+
+.section-archives {
+    background-color: black;
+    height: 40vh;
+    padding: 0em 3em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .archives-hero {
+    color: #fff;
+  }
+  
+  .archives-hero code {
+    font-size: 1.1em;
+  }
+  
+  .archives-hero h1 {
+    font-size: 2em;
+    font-weight: bolder;
+  }
+  
+  .archives-list {
+    background-color: black;
+    height: 40vh;
+    padding: 0em 3em;
+    display: flex;
+    align-items: center;
+  }
+
+  .mobile-invisible {
+      display: none;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  td,
+  th {
+    text-align: left;
+    padding: 8px 10px;
+  }
+  
+  th {
+    color: #d4d4d4;
+    font-size: 1.1em;
+  }
+  
+  td {
+    color: #fff;
+  }
+  
+  .index {
+    color: #59ffd0;
+  }
+  
+  .archive-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 3em;
+  }
+  
+  .archive-links i {
+    font-size: 1.2em;
+    color: white;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .archive-links i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
 
 }
 
@@ -6175,6 +6756,82 @@ footer .details p {
     font-size: 1.5em
   }
 
+    /* ARCHIVES */
+
+.section-archives {
+    background-color: black;
+    height: 40vh;
+    padding: 0em 2em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .archives-hero {
+    color: #fff;
+  }
+  
+  .archives-hero code {
+    font-size: 1em;
+  }
+  
+  .archives-hero h1 {
+    font-size: 1.5em;
+    font-weight: bolder;
+  }
+  
+  .archives-list {
+    background-color: black;
+    height: 50vh;
+    padding: 0em 2em;
+    display: flex;
+    align-items: center;
+  }
+
+  .mobile-invisible {
+      display: none;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  td,
+  th {
+    text-align: left;
+    padding: 8px 10px;
+  }
+  
+  th {
+    color: #d4d4d4;
+    font-size: 1.1em;
+  }
+  
+  td {
+    color: #fff;
+  }
+  
+  .index {
+    color: #59ffd0;
+  }
+  
+  .archive-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 3em;
+  }
+  
+  .archive-links i {
+    font-size: 1.2em;
+    color: white;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .archive-links i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
 }
 
 @media (max-width: 319px) {
@@ -6946,6 +7603,81 @@ footer .details p {
         font-size: 1em
       }
     
+          /* ARCHIVES */
+
+.section-archives {
+    background-color: black;
+    height: 40vh;
+    padding: 0em 2em;
+    display: flex;
+    align-items: center;
+  }
+  
+  .archives-hero {
+    color: #fff;
+  }
+  
+  .archives-hero code {
+    font-size: 1em;
+  }
+  
+  .archives-hero h1 {
+    font-size: 1.5em;
+    font-weight: bolder;
+  }
+  
+  .archives-list {
+    background-color: black;
+    height: 50vh;
+    padding: 0em 2em;
+    display: flex;
+    align-items: center;
+  }
+
+  .mobile-invisible {
+      display: none;
+  }
+  
+  table {
+    border-collapse: collapse;
+  }
+  
+  td,
+  th {
+    text-align: left;
+    padding: 8px 10px;
+  }
+  
+  th {
+    color: #d4d4d4;
+    font-size: 1.1em;
+  }
+  
+  td {
+    color: #fff;
+  }
+  
+  .index {
+    color: #59ffd0;
+  }
+  
+  .archive-links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 3em;
+  }
+  
+  .archive-links i {
+    font-size: 1.2em;
+    color: white;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .archive-links i:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
 
 }
 
